@@ -17,3 +17,4 @@ This folder stores source glyph artwork for numeric characters used on flaps.
 
 - These files should contain glyph artwork only, not full flap templates.
 - Final per-flap compositions belong in `artwork/flap-layouts/`.
+- Explicit numeral ID and SVG tracking table: `symbol-register.md`.
