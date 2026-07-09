@@ -55,6 +55,8 @@ The shared chat specification defines a themed set with:
 
 Symbol names and SVG progress tracking are maintained only in `artwork/hieroglyphs/symbol-register.md`.
 
+Numeral names and SVG progress tracking are maintained only in `artwork/numerals/symbol-register.md`.
+
 This file remains the source of truth for:
 
 - active symbol IDs and sequence
