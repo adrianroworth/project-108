@@ -23,6 +23,6 @@ This document describes the flap parts, printing strategy, and material decision
 
 ## Organisation
 
-- Label batches as they come off the printer using active IDs from `03-symbol-inventory.md`: `N0`-`N9`, `H01`-`H16`.
+- Label batches as they come off the printer using active IDs from `03-symbol-inventory.md`: `N0`-`N9`, `H1`-`H16`.
 - Keep two clearly marked passes for each wheel: `Pass A` and `Pass B` (26 symbols each).
 - Keep the first batch separate for design review before continuing.
