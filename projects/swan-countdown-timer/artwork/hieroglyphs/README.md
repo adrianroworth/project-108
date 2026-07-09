@@ -4,7 +4,7 @@ This folder stores themed glyph artwork used on split-flap symbols.
 
 ## Expected files
 
-- `h-01.svg` through `h-16.svg`
+- `h-1.svg` through `h-16.svg`
 - Optional alternates: `h-<id>-alt.svg`
 
 ## Design rules

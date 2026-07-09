@@ -5,7 +5,7 @@ This document defines the lettering system for flap symbols: font-family, glyph 
 ## Scope
 
 - Numerals
-- Themed glyph marks (`H01-H16`)
+- Themed glyph marks (`H1-H16`)
 - Flap face layout for printed symbols
 
 Note: utility separator symbols are not part of the active 52-flap production set and are out of scope unless reintroduced by a future decision.
@@ -76,14 +76,14 @@ This section records the color mapping explicitly described in the shared planni
 | Symbol class | Flap background | Symbol foreground |
 |---|---|---|
 | Numerals (`0-9`) | Black | White |
-| Hieroglyphs (`H01-H16`) | Black | Red |
+| Hieroglyphs (`H1-H16`) | Black | Red |
 
 ### Digits 4-5
 
 | Symbol class | Flap background | Symbol foreground |
 |---|---|---|
 | Numerals (`0-9`) | White | Black |
-| Hieroglyphs (`H01-H16`) | Red | Black |
+| Hieroglyphs (`H1-H16`) | Red | Black |
 
 ### Per-digit flap color matrix (all five display modules)
 
@@ -100,7 +100,7 @@ This section records the color mapping explicitly described in the shared planni
 - Keep one source artwork file per symbol and apply per-digit color variants at composition/export stage.
 - Do not redraw glyph geometry between digit groups; color should be the only visual variable.
 - Export explicit color variants per symbol where needed, for example `flap-n0-d1-3.svg` and `flap-n0-d4-5.svg`.
-- Apply the same variant split for hieroglyphs, for example `flap-h01-d1-3.svg` and `flap-h01-d4-5.svg`.
+- Apply the same variant split for hieroglyphs, for example `flap-h1-d1-3.svg` and `flap-h1-d4-5.svg`.
 - If AMS or multi-material print is not used, document paint/decal workflow and masking tolerance before production runs.
 - For prototype-only prints, a simplified single color scheme is acceptable, but production intent must remain as specified above.
 
