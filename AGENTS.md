@@ -25,6 +25,11 @@ For any new decision, design element, issue, bug, documentable step, or project 
 - Add or extend relevant docs pages under `docs/` or `projects/swan-countdown-timer/docs/` when a new technical topic or process step is introduced.
 - Update `docs/project-principles.md` and `docs/glossary.md` when new project principles or terms become important.
 
+## Workflow conventions
+- Prefer branch names in the form `<type>/<scope>-<purpose>` when suggesting or creating branch names.
+- Prefer Conventional Commits for all commit messages.
+- Treat `CHANGELOG.md` `Unreleased` as the active development section, and move items into a versioned section only when preparing a release.
+
 ## How to add a new decision or design record
 - Create a new markdown file in the appropriate `decisions/` folder with a descriptive filename and the decision template.
 - Link the decision file from the relevant documentation page or README when it is relevant to project readers.

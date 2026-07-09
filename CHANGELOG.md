@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added a dedicated numeral symbol register and linked both numeral/hieroglyph SVG tracking workflows
+- Documented lightweight workflow conventions for branch naming, Conventional Commits, changelog usage, and release tagging
+
 ## 0.1.0 - Initial repository setup
 
 - Created `Project 108` umbrella repository structure
