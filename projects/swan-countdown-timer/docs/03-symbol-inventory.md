@@ -34,15 +34,15 @@ The shared chat specification defines a themed set with:
 | 08 | N7 | 7 | Numeral |
 | 09 | N8 | 8 | Numeral |
 | 10 | N9 | 9 | Numeral |
-| 11 | H01 | H01 | Hieroglyph |
-| 12 | H02 | H02 | Hieroglyph |
-| 13 | H03 | H03 | Hieroglyph |
-| 14 | H04 | H04 | Hieroglyph |
-| 15 | H05 | H05 | Hieroglyph |
-| 16 | H06 | H06 | Hieroglyph |
-| 17 | H07 | H07 | Hieroglyph |
-| 18 | H08 | H08 | Hieroglyph |
-| 19 | H09 | H09 | Hieroglyph |
+| 11 | H1 | H1 | Hieroglyph |
+| 12 | H2 | H2 | Hieroglyph |
+| 13 | H3 | H3 | Hieroglyph |
+| 14 | H4 | H4 | Hieroglyph |
+| 15 | H5 | H5 | Hieroglyph |
+| 16 | H6 | H6 | Hieroglyph |
+| 17 | H7 | H7 | Hieroglyph |
+| 18 | H8 | H8 | Hieroglyph |
+| 19 | H9 | H9 | Hieroglyph |
 | 20 | H10 | H10 | Hieroglyph |
 | 21 | H11 | H11 | Hieroglyph |
 | 22 | H12 | H12 | Hieroglyph |
@@ -76,15 +76,15 @@ This file remains the source of truth for:
 7
 8
 9
-H01
-H02
-H03
-H04
-H05
-H06
-H07
-H08
-H09
+H1
+H2
+H3
+H4
+H5
+H6
+H7
+H8
+H9
 H10
 H11
 H12
@@ -122,13 +122,13 @@ If a future revision introduces utility symbols (for example SPACE, COLON, DASH,
 ## Symbol ID rules
 
 - Use `N0` through `N9` for numerals.
-- Use zero-padded numeric IDs for themed glyphs: `H01` to `H16`.
+- Use permanent sequential IDs for themed glyphs: `H1` to `H16`.
 - Keep IDs stable after flap production starts.
 
 ## File naming conventions
 
 - Numerals: `n-0.svg` ... `n-9.svg`
-- Themed glyphs: `h-01.svg` ... `h-16.svg`
+- Themed glyphs: `h-1.svg` ... `h-16.svg`
 - Composite flap art: `flap-<symbol-id>.svg`
 
 ## Change control

@@ -6,6 +6,8 @@
 - **Flap**: a single printed panel that carries one printed or engraved symbol.
 - **Wheel**: the rotating assembly that holds the flaps for one digit.
 - **Hieroglyph**: themed symbols used alongside numerals to evoke the LOST universe.
+- **Gardiner code**: the standard Egyptological identifier for a hieroglyph sign, using a category letter and sign number, e.g. `S29` or `G1`.
+- **Gardiner's sign list**: Alan Gardiner's standard reference list for common Egyptian hieroglyphs, used here to document the source identity of each themed symbol.
 - **Bambu A1**: the preferred 3D printer platform for this project.
 - **CAD**: computer-aided design files used to model parts.
 - **STL**: a common 3D printing file format for part geometry.
