@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan Countdown Timer flap template with guides</title>
+  <desc>Normalized flap artwork template using a 100 by 100 viewBox so lettering percentages map directly to the documented spec.</desc>
+  <defs>
+    <style>
+      .outline { fill: none; stroke: #111111; stroke-width: 0.8; }
+      .guide-major { fill: none; stroke: #1e88e5; stroke-width: 0.35; stroke-dasharray: 2 1; }
+      .guide-minor { fill: none; stroke: #9e9e9e; stroke-width: 0.2; stroke-dasharray: 1 1; }
+      .label { font-family: Consolas, 'Liberation Mono', monospace; font-size: 2.6px; fill: #1e88e5; }
+      .label-minor { font-family: Consolas, 'Liberation Mono', monospace; font-size: 2px; fill: #616161; }
+    </style>
+  </defs>
+
+  <rect class="outline" x="0.5" y="0.5" width="99" height="99" rx="2" ry="2"/>
+  <line class="guide-major" x1="0" y1="50" x2="100" y2="50"/>
+  <line class="guide-major" x1="50" y1="0" x2="50" y2="100"/>
+
+  <rect class="guide-major" x="8" y="8" width="84" height="84"/>
+  <line class="guide-major" x1="8" y1="78" x2="92" y2="78"/>
+  <line class="guide-major" x1="8" y1="70" x2="92" y2="70"/>
+
+  <line class="guide-minor" x1="8" y1="25" x2="92" y2="25"/>
+  <line class="guide-minor" x1="8" y1="75" x2="92" y2="75"/>
+  <line class="guide-minor" x1="25" y1="8" x2="25" y2="92"/>
+  <line class="guide-minor" x1="75" y1="8" x2="75" y2="92"/>
+
+  <text class="label" x="51" y="49" dominant-baseline="ideographic">hinge / split line</text>
+  <text class="label" x="93" y="78" text-anchor="end">baseline 78%</text>
+  <text class="label" x="93" y="70" text-anchor="end">cap-height target 70%</text>
+  <text class="label-minor" x="9" y="7">safe margin 8%</text>
+  <text class="label-minor" x="50" y="97" text-anchor="middle">viewBox 100x100 for direct percentage-based artwork placement</text>
+</svg>
