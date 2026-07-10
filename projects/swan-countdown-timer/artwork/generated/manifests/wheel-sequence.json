@@ -1,0 +1,295 @@
+{
+  "profile": "prototype-r0",
+  "topology": "split-pair",
+  "wheel_positions": 52,
+  "symbols": [
+    "N0",
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "N5",
+    "N6",
+    "N7",
+    "N8",
+    "N9",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8",
+    "H9",
+    "H10",
+    "H11",
+    "H12",
+    "H13",
+    "H14",
+    "H15",
+    "H16"
+  ],
+  "wheel_sequence": [
+    {
+      "position": 0,
+      "pass": "A",
+      "symbolId": "N0"
+    },
+    {
+      "position": 1,
+      "pass": "A",
+      "symbolId": "N1"
+    },
+    {
+      "position": 2,
+      "pass": "A",
+      "symbolId": "N2"
+    },
+    {
+      "position": 3,
+      "pass": "A",
+      "symbolId": "N3"
+    },
+    {
+      "position": 4,
+      "pass": "A",
+      "symbolId": "N4"
+    },
+    {
+      "position": 5,
+      "pass": "A",
+      "symbolId": "N5"
+    },
+    {
+      "position": 6,
+      "pass": "A",
+      "symbolId": "N6"
+    },
+    {
+      "position": 7,
+      "pass": "A",
+      "symbolId": "N7"
+    },
+    {
+      "position": 8,
+      "pass": "A",
+      "symbolId": "N8"
+    },
+    {
+      "position": 9,
+      "pass": "A",
+      "symbolId": "N9"
+    },
+    {
+      "position": 10,
+      "pass": "A",
+      "symbolId": "H1"
+    },
+    {
+      "position": 11,
+      "pass": "A",
+      "symbolId": "H2"
+    },
+    {
+      "position": 12,
+      "pass": "A",
+      "symbolId": "H3"
+    },
+    {
+      "position": 13,
+      "pass": "A",
+      "symbolId": "H4"
+    },
+    {
+      "position": 14,
+      "pass": "A",
+      "symbolId": "H5"
+    },
+    {
+      "position": 15,
+      "pass": "A",
+      "symbolId": "H6"
+    },
+    {
+      "position": 16,
+      "pass": "A",
+      "symbolId": "H7"
+    },
+    {
+      "position": 17,
+      "pass": "A",
+      "symbolId": "H8"
+    },
+    {
+      "position": 18,
+      "pass": "A",
+      "symbolId": "H9"
+    },
+    {
+      "position": 19,
+      "pass": "A",
+      "symbolId": "H10"
+    },
+    {
+      "position": 20,
+      "pass": "A",
+      "symbolId": "H11"
+    },
+    {
+      "position": 21,
+      "pass": "A",
+      "symbolId": "H12"
+    },
+    {
+      "position": 22,
+      "pass": "A",
+      "symbolId": "H13"
+    },
+    {
+      "position": 23,
+      "pass": "A",
+      "symbolId": "H14"
+    },
+    {
+      "position": 24,
+      "pass": "A",
+      "symbolId": "H15"
+    },
+    {
+      "position": 25,
+      "pass": "A",
+      "symbolId": "H16"
+    },
+    {
+      "position": 26,
+      "pass": "B",
+      "symbolId": "N0"
+    },
+    {
+      "position": 27,
+      "pass": "B",
+      "symbolId": "N1"
+    },
+    {
+      "position": 28,
+      "pass": "B",
+      "symbolId": "N2"
+    },
+    {
+      "position": 29,
+      "pass": "B",
+      "symbolId": "N3"
+    },
+    {
+      "position": 30,
+      "pass": "B",
+      "symbolId": "N4"
+    },
+    {
+      "position": 31,
+      "pass": "B",
+      "symbolId": "N5"
+    },
+    {
+      "position": 32,
+      "pass": "B",
+      "symbolId": "N6"
+    },
+    {
+      "position": 33,
+      "pass": "B",
+      "symbolId": "N7"
+    },
+    {
+      "position": 34,
+      "pass": "B",
+      "symbolId": "N8"
+    },
+    {
+      "position": 35,
+      "pass": "B",
+      "symbolId": "N9"
+    },
+    {
+      "position": 36,
+      "pass": "B",
+      "symbolId": "H1"
+    },
+    {
+      "position": 37,
+      "pass": "B",
+      "symbolId": "H2"
+    },
+    {
+      "position": 38,
+      "pass": "B",
+      "symbolId": "H3"
+    },
+    {
+      "position": 39,
+      "pass": "B",
+      "symbolId": "H4"
+    },
+    {
+      "position": 40,
+      "pass": "B",
+      "symbolId": "H5"
+    },
+    {
+      "position": 41,
+      "pass": "B",
+      "symbolId": "H6"
+    },
+    {
+      "position": 42,
+      "pass": "B",
+      "symbolId": "H7"
+    },
+    {
+      "position": 43,
+      "pass": "B",
+      "symbolId": "H8"
+    },
+    {
+      "position": 44,
+      "pass": "B",
+      "symbolId": "H9"
+    },
+    {
+      "position": 45,
+      "pass": "B",
+      "symbolId": "H10"
+    },
+    {
+      "position": 46,
+      "pass": "B",
+      "symbolId": "H11"
+    },
+    {
+      "position": 47,
+      "pass": "B",
+      "symbolId": "H12"
+    },
+    {
+      "position": 48,
+      "pass": "B",
+      "symbolId": "H13"
+    },
+    {
+      "position": 49,
+      "pass": "B",
+      "symbolId": "H14"
+    },
+    {
+      "position": 50,
+      "pass": "B",
+      "symbolId": "H15"
+    },
+    {
+      "position": 51,
+      "pass": "B",
+      "symbolId": "H16"
+    }
+  ]
+}

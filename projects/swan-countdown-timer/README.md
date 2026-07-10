@@ -11,28 +11,29 @@ The Swan Countdown Timer is designed as a physical, mechanical split-flap displa
 - Build a five-digit mechanical split-flap countdown display
 - Use durable, 3D-printable parts with a Bambu A1-friendly workflow
 - Validate a single working digit before scaling to the full display
-- Print a small pilot batch of flaps and verify fit, movement, and finish
+- Print a small pilot batch, then one complete 52-position prototype set per digit module, and verify fit, movement, and finish
 - Document CAD, electronics, firmware, assembly, calibration, and testing
 
 ## Design approach
 
 - Print one complete digit first, not the full display
-- Validate 50 flaps before committing to the full print run
+- Use a 52-position wheel per digit (26 unique symbols repeated twice)
+- Treat prototype-r0 panel dimensions as configurable so artwork can scale
 - Prefer matte black PLA for flap bodies and white material for lettering
 - Keep each module modular and repairable
-- Use a 40-position split-flap wheel with numerals, letters, and a small set of symbols
+- Use conventional split upper/lower panels to form each visible character
 
 ## Project structure
 
-- `docs/` — build-specific documentation and decision records
-- `cad/` — CAD source, STEP exports, STL prints, and renders
-- `artwork/` — numerals, hieroglyphs, flap layouts, and SVG assets
-- `firmware/` — firmware source and release builds
-- `electronics/` — schematics, PCB layouts, and wiring diagrams
-- `tools/` — custom utilities and supporting files
-- `bom/` — bill of materials and parts lists
-- `media/` — photos, videos, and screenshots
+- `docs/` ï¿½ build-specific documentation and decision records
+- `cad/` ï¿½ CAD source, STEP exports, STL prints, and renders
+- `artwork/` ï¿½ numerals, hieroglyphs, flap layouts, and SVG assets
+- `firmware/` ï¿½ firmware source and release builds
+- `electronics/` ï¿½ schematics, PCB layouts, and wiring diagrams
+- `tools/` ï¿½ custom utilities and supporting files
+- `bom/` ï¿½ bill of materials and parts lists
+- `media/` ï¿½ photos, videos, and screenshots
 
 ## Next step
 
-Start by reading `projects/swan-countdown-timer/docs/01-project-overview.md` and then validate the first batch of 50 flaps before moving to the full build.
+Start by reading `projects/swan-countdown-timer/docs/01-project-overview.md`, confirm the split-panel topology and prototype-r0 dimensions in `artwork/flap-layouts/flap-spec.yaml`, then validate a pilot batch before moving to a complete 52-position set.

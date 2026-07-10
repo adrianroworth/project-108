@@ -1,0 +1,68 @@
+version: 1
+profile: prototype-r0
+
+mechanism:
+  topology: split-pair
+  wheel_positions: 52
+  unique_symbols: 26
+  sequence_repetitions: 2
+  rotation_direction: clockwise
+
+panel:
+  width_mm: 54.0
+  half_height_mm: 43.0
+  thickness_mm: 1.0
+  center_gap_mm: 0.8
+  corner_radius_mm: 3.1
+
+artwork:
+  canvas_width: 1000
+  canvas_height: 1000
+  safe_margin: 0.08
+  cap_height: 0.70
+  baseline: 0.78
+  split_line_y: 500
+
+symbols:
+  - N0
+  - N1
+  - N2
+  - N3
+  - N4
+  - N5
+  - N6
+  - N7
+  - N8
+  - N9
+  - H1
+  - H2
+  - H3
+  - H4
+  - H5
+  - H6
+  - H7
+  - H8
+  - H9
+  - H10
+  - H11
+  - H12
+  - H13
+  - H14
+  - H15
+  - H16
+
+color_groups:
+  digits_1_3:
+    numerals:
+      background: black
+      foreground: white
+    hieroglyphs:
+      background: black
+      foreground: red
+  digits_4_5:
+    numerals:
+      background: white
+      foreground: black
+    hieroglyphs:
+      background: red
+      foreground: black

@@ -4,9 +4,9 @@ This document records the 3D printing strategy for the Swan Countdown Timer.
 
 ## Pilot strategy
 
-- Print a small batch of 50 flaps first.
+- Print a small pilot batch first.
 - Validate hinge motion, part fit, and finish.
-- Adjust the design before printing the rest of the flaps.
+- Adjust the design before printing a complete 52-position prototype set.
 
 ## Printer settings
 

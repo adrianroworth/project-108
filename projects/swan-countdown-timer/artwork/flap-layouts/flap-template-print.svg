@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan Countdown Timer clean flap template</title>
+  <desc>Minimal flap template for final artwork composition without construction guides.</desc>
+  <rect x="0.5" y="0.5" width="99" height="99" rx="2" ry="2" fill="none" stroke="#111111" stroke-width="0.8"/>
+</svg>

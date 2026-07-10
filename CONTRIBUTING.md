@@ -23,6 +23,14 @@ Thank you for contributing to Project 108.
 - Add or update directory-level `README.md` files when creating or reorganizing major folders.
 - Use decision records in `docs/decisions/` or project-specific `docs/decisions/` for architecture, design, or process choices.
 
+## Workflow conventions
+
+- Use branch names in the form `<type>/<scope>-<purpose>`.
+- Preferred branch types: `docs`, `feat`, `fix`, `chore`, `refactor`, `release`.
+- Use Conventional Commits for commit messages.
+- Keep unreleased work under the `Unreleased` section in `CHANGELOG.md`.
+- When cutting a release, move relevant entries from `Unreleased` into a versioned section and tag the repo with `vX.Y.Z`.
+
 ## Review
 
 - Include a short summary of what changed and why.

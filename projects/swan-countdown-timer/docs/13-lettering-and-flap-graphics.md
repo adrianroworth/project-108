@@ -5,8 +5,8 @@ This document defines the lettering system for flap symbols: font-family, glyph 
 ## Scope
 
 - Numerals
-- Themed glyph marks (`H01-H16`)
-- Flap face layout for printed symbols
+- Themed glyph marks (`H1-H16`)
+- Split character face layout (upper and lower panels)
 
 Note: utility separator symbols are not part of the active 52-flap production set and are out of scope unless reintroduced by a future decision.
 
@@ -14,7 +14,7 @@ Note: utility separator symbols are not part of the active 52-flap production se
 
 - Character sets: `03-symbol-inventory.md`
 - Display requirements: `02-display-specification.md`
-- Flap templates: `artwork/flap-layouts/`
+- Flap templates and machine-readable spec: `artwork/flap-layouts/`
 - Numeral glyph assets: `artwork/numerals/`
 - Themed glyph assets: `artwork/hieroglyphs/`
 
@@ -22,21 +22,22 @@ Note: utility separator symbols are not part of the active 52-flap production se
 
 ### Primary font for prototype lettering
 
-- Font family: Bahnschrift
+- Font family (numerals): Arial Black
+- Font family (hieroglyph references): Segoe UI Historic or Noto Sans Egyptian Hieroglyphs
 - Weight: SemiBold or Bold
 - Style: Upright
 - Case: Uppercase only where letters are used
 
 ### Fallback stack
 
-- DIN Alternate Bold
-- Arial Narrow Bold
-- Liberation Sans Narrow Bold
+- For numerals: Bahnschrift, DIN Alternate Bold, Arial Narrow Bold
+- For hieroglyph references: Noto Sans Egyptian Hieroglyphs, serif fallback
 
 ### Final-font policy
 
 - Prototype may use system fonts for speed.
 - Before production flap batches, freeze one font-family and document the exact file/version in a decision record.
+- Current numeral font freeze record: `decisions/2026-07-10-numeral-font-freeze-arial-black.md`.
 
 ## Glyph geometry standards
 
@@ -76,14 +77,14 @@ This section records the color mapping explicitly described in the shared planni
 | Symbol class | Flap background | Symbol foreground |
 |---|---|---|
 | Numerals (`0-9`) | Black | White |
-| Hieroglyphs (`H01-H16`) | Black | Red |
+| Hieroglyphs (`H1-H16`) | Black | Red |
 
 ### Digits 4-5
 
 | Symbol class | Flap background | Symbol foreground |
 |---|---|---|
 | Numerals (`0-9`) | White | Black |
-| Hieroglyphs (`H01-H16`) | Red | Black |
+| Hieroglyphs (`H1-H16`) | Red | Black |
 
 ### Per-digit flap color matrix (all five display modules)
 
@@ -100,16 +101,17 @@ This section records the color mapping explicitly described in the shared planni
 - Keep one source artwork file per symbol and apply per-digit color variants at composition/export stage.
 - Do not redraw glyph geometry between digit groups; color should be the only visual variable.
 - Export explicit color variants per symbol where needed, for example `flap-n0-d1-3.svg` and `flap-n0-d4-5.svg`.
-- Apply the same variant split for hieroglyphs, for example `flap-h01-d1-3.svg` and `flap-h01-d4-5.svg`.
+- Apply the same variant split for hieroglyphs, for example `flap-h1-d1-3.svg` and `flap-h1-d4-5.svg`.
 - If AMS or multi-material print is not used, document paint/decal workflow and masking tolerance before production runs.
 - For prototype-only prints, a simplified single color scheme is acceptable, but production intent must remain as specified above.
 
 ## Flap artwork production pipeline
 
 1. Build or update glyph source in `artwork/numerals/` or `artwork/hieroglyphs/`.
-2. Compose per-symbol flap art in `artwork/flap-layouts/`.
-3. Export print-ready SVG and optional raster previews.
-4. Validate using the QA checklist below before print batch.
+2. Keep profile and geometry parameters in `artwork/flap-layouts/flap-spec.yaml`.
+3. Generate full/panel/color assets with `node tools/artwork/build-svg-assets.mjs`.
+4. Validate generated and source asset constraints with `node tools/artwork/qa-svg-assets.mjs`.
+5. Export print-ready outputs and optional raster previews.
 
 ## QA checklist for lettering
 

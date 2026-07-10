@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- Keep masters path-only and avoid explicit fill when possible. -->
+  <!-- Safe margin guides (8%) are non-printing and can be removed before final export. -->
+  <g id="guides" stroke="#888" stroke-width="2" fill="none" opacity="0.45">
+    <rect x="80" y="80" width="840" height="840" />
+    <line x1="0" y1="500" x2="1000" y2="500" />
+    <line x1="0" y1="780" x2="1000" y2="780" />
+  </g>
+
+  <!-- Replace this with your symbol paths only. -->
+  <g id="glyph">
+    <path d="M500 200 L650 800 L350 800 Z" />
+  </g>
+</svg>
