@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added Swan domain language reference at `projects/swan-countdown-timer/docs/14-domain-language.md` to standardize position/character/panel terminology
+- Aligned project docs to 52-position terminology and removed remaining 50-flap/40-position references in active Swan docs
+- Added split-panel topology terminology (`position`, `character`, `upper panel`, `lower panel`, `flap pair`, `flap set`) to the shared glossary
+- Added prototype-r0 flap specification file at `projects/swan-countdown-timer/artwork/flap-layouts/flap-spec.yaml`
+- Added decision record `2026-07-10-flap-topology-and-prototype-size.md` for topology and initial panel dimensions
 - Added a dedicated numeral symbol register and linked both numeral/hieroglyph SVG tracking workflows
 - Documented lightweight workflow conventions for branch naming, Conventional Commits, changelog usage, and release tagging
 - Added starter flap SVG template files and documented optional Blender source conventions for flap artwork

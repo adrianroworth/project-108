@@ -9,7 +9,7 @@ Related lettering standards are documented in `13-lettering-and-flap-graphics.md
 The active and authoritative set is the chat-agreed LOST set below:
 
 - 26 unique symbols per digit
-- 52 physical flaps per digit
+- 52 wheel positions per digit
 - exactly two copies of each symbol per wheel
 
 ## Chat-agreed LOST symbol set (explicit)
@@ -17,7 +17,7 @@ The active and authoritative set is the chat-agreed LOST set below:
 The shared chat specification defines a themed set with:
 
 - 26 unique symbols per digit
-- 52 physical flaps per digit
+- 52 wheel positions per digit
 - exactly two copies of each unique symbol per wheel
 
 ### Unique symbol list (26)
@@ -94,7 +94,7 @@ H15
 H16
 ```
 
-### 52-flap wheel population
+### 52-position wheel population
 
 The 26-symbol base sequence is repeated twice:
 
@@ -103,7 +103,7 @@ The 26-symbol base sequence is repeated twice:
 
 This yields:
 
-- 52 flaps per digit
+- 52 positions per digit
 - 26 unique symbols
 - 2 copies of each symbol
 
