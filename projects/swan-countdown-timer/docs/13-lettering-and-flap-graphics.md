@@ -6,7 +6,7 @@ This document defines the lettering system for flap symbols: font-family, glyph 
 
 - Numerals
 - Themed glyph marks (`H1-H16`)
-- Flap face layout for printed symbols
+- Split character face layout (upper and lower panels)
 
 Note: utility separator symbols are not part of the active 52-flap production set and are out of scope unless reintroduced by a future decision.
 
@@ -14,7 +14,7 @@ Note: utility separator symbols are not part of the active 52-flap production se
 
 - Character sets: `03-symbol-inventory.md`
 - Display requirements: `02-display-specification.md`
-- Flap templates: `artwork/flap-layouts/`
+- Flap templates and machine-readable spec: `artwork/flap-layouts/`
 - Numeral glyph assets: `artwork/numerals/`
 - Themed glyph assets: `artwork/hieroglyphs/`
 
@@ -107,9 +107,10 @@ This section records the color mapping explicitly described in the shared planni
 ## Flap artwork production pipeline
 
 1. Build or update glyph source in `artwork/numerals/` or `artwork/hieroglyphs/`.
-2. Compose per-symbol flap art in `artwork/flap-layouts/`.
-3. Export print-ready SVG and optional raster previews.
-4. Validate using the QA checklist below before print batch.
+2. Compose normalized complete character artwork in `artwork/flap-layouts/`.
+3. Split each character into upper and lower panel artwork using the current topology settings.
+4. Export print-ready SVG and optional raster previews.
+5. Validate using the QA checklist below before print batch.
 
 ## QA checklist for lettering
 
