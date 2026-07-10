@@ -9,6 +9,19 @@ Reference definitions:
 - Character-set source: `../../docs/03-symbol-inventory.md`
 - Lettering and color rules: `../../docs/13-lettering-and-flap-graphics.md`
 
+## Quick Checklist
+
+Use this checklist for every hieroglyph update:
+
+1. Edit or create the hieroglyph SVG (`h-<id>.svg`).
+2. Update the matching register row immediately.
+3. Set non-`TBD` values for `Reference tier`, `Evidence ref`, and `Prop accuracy`.
+4. Update `Vector status` to reflect current phase (`Draft`, `Review`, or `Approved`).
+5. Keep symbol ID and filename mapping consistent with `../../docs/03-symbol-inventory.md`.
+
+Full process guide: `../../docs/15-artwork-source-of-truth-workflow.md`.
+End-to-end runbook: `../../docs/16-artwork-update-runbook.md`.
+
 ## Symbol list
 
 | Symbol ID | Symbol | Gardiner code | Unicode reference | Description | Artwork file target | Vector status | Reference tier | Evidence ref | Prop accuracy | Notes |
@@ -23,7 +36,7 @@ Reference definitions:
 | H8 | &#x13250; | O1 | U+13250 | House | `h-8.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
 | H9 | &#x1332A; | T30 | U+1332A | Knife | `h-9.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
 | H10 | &#x1320E; | N29 | U+1320E | Slope of hill | `h-10.svg` | Pending | TBD | TBD | TBD | Project shorthand: Hill |
-| H11 | &#x131F3; | N5 | U+131F3 | Sun | `h-11.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
+| H11 | &#x131F3; | N5 | U+131F3 | Sun | `h-11.svg` | Draft | Tier 4 | Unicode and Gardiner fallback (U+131F3 / N5) | D | Seed source-of-truth vector created; replace with Tier 1 screenshot evidence |
 | H12 | &#x131EF; | N1 | U+131EF | Sky | `h-12.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
 | H13 | &#x131BC; | M12 | U+131BC | One lotus plant | `h-13.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Reed |
 | H14 | &#x131BD; | M12A | U+131BD | Two lotus plants | `h-14.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Double reed |

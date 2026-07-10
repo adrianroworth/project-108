@@ -18,4 +18,6 @@ This folder stores themed glyph artwork used on split-flap symbols.
 - Symbol IDs must match `docs/03-symbol-inventory.md`.
 - If symbol count or IDs change, update docs before generating production flap files.
 - Explicit symbol register and asset-tracking table: `symbol-register.md`.
+- Source-of-truth update workflow: `../../docs/15-artwork-source-of-truth-workflow.md`.
+- Build and QA commands for generated outputs: `../../tools/artwork/README.md`.
 

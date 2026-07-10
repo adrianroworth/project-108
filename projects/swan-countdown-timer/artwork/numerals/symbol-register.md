@@ -9,6 +9,19 @@ Reference definitions:
 - Character-set source: `../../docs/03-symbol-inventory.md`
 - Lettering and color rules: `../../docs/13-lettering-and-flap-graphics.md`
 
+## Quick Checklist
+
+Use this checklist for every numeral update:
+
+1. Edit or create the numeral SVG (`n-<digit>.svg`).
+2. Update the matching register row immediately.
+3. Set non-`TBD` values for `Reference tier`, `Evidence ref`, and `Prop accuracy`.
+4. Update `Vector status` to reflect current phase (`Draft`, `Review`, or `Approved`).
+5. Keep symbol ID and filename mapping consistent with `../../docs/03-symbol-inventory.md`.
+
+Full process guide: `../../docs/15-artwork-source-of-truth-workflow.md`.
+End-to-end runbook: `../../docs/16-artwork-update-runbook.md`.
+
 ## Symbol list
 
 | Symbol ID | Symbol name | Unicode reference | Artwork file target | Variant files (color groups) | Vector status | Reference tier | Evidence ref | Prop accuracy | Notes |
@@ -21,7 +34,7 @@ Reference definitions:
 | N5 | 5 | U+0035 | `n-5.svg` | `flap-n5-d1-3.svg`, `flap-n5-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
 | N6 | 6 | U+0036 | `n-6.svg` | `flap-n6-d1-3.svg`, `flap-n6-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
 | N7 | 7 | U+0037 | `n-7.svg` | `flap-n7-d1-3.svg`, `flap-n7-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
-| N8 | 8 | U+0038 | `n-8.svg` | `flap-n8-d1-3.svg`, `flap-n8-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
+| N8 | 8 | U+0038 | `n-8.svg` | `flap-n8-d1-3.svg`, `flap-n8-d4-5.svg` | Draft | Tier 4 | Unicode fallback U+0038 | D | Seed source-of-truth vector created; replace with screen reference when available |
 | N9 | 9 | U+0039 | `n-9.svg` | `flap-n9-d1-3.svg`, `flap-n9-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
 
 Reference tier values:
