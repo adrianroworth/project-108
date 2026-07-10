@@ -22,6 +22,7 @@ The Swan Countdown Timer is designed as a physical, mechanical split-flap displa
 - Prefer matte black PLA for flap bodies and white material for lettering
 - Keep each module modular and repairable
 - Use conventional split upper/lower panels to form each visible character
+- Treat master symbol SVG assets as visual source of truth; keep Unicode/Gardiner mappings as metadata references
 
 ## Project structure
 

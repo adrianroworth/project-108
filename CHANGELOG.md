@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added decision record `2026-07-10-artwork-source-of-truth-and-reference-hierarchy.md` to formalize master SVG symbols as visual source of truth and Unicode/Gardiner as metadata references
+- Updated Swan symbol inventory plus numeral and hieroglyph symbol registers with provenance-oriented metadata (`Unicode reference`, reference tier, evidence reference, prop accuracy)
+
 ## 0.2.0 - 2026-07-10
 
 - Added Swan domain language reference at `projects/swan-countdown-timer/docs/14-domain-language.md` to standardize position/character/panel terminology

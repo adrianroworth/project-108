@@ -4,6 +4,12 @@ This document defines the character sets used by the Swan Countdown Timer and ho
 
 Related lettering standards are documented in `13-lettering-and-flap-graphics.md`.
 
+Related decision records:
+
+- `decisions/2026-07-09-character-set-and-lettering-spec.md`
+- `decisions/2026-07-10-flap-topology-and-prototype-size.md`
+- `decisions/2026-07-10-artwork-source-of-truth-and-reference-hierarchy.md`
+
 ## Character set strategy
 
 The active and authoritative set is the chat-agreed LOST set below:
@@ -11,6 +17,21 @@ The active and authoritative set is the chat-agreed LOST set below:
 - 26 unique symbols per digit
 - 52 wheel positions per digit
 - exactly two copies of each symbol per wheel
+
+## Artwork source-of-truth policy
+
+Master symbol SVG files are the authoritative visual source for this project.
+
+Unicode and Gardiner values are retained for interoperability and catalog reference only. They are not visual source artwork.
+
+Downstream assets (split upper/lower panel outputs, print sheets, and previews) are generated from the master symbol set.
+
+Reference priority for redraw and verification:
+
+1. Direct screen references (best available captures)
+2. Behind-the-scenes production photos
+3. High-quality fan recreation references
+4. Unicode/Gardiner fallback references
 
 ## Chat-agreed LOST symbol set (explicit)
 
@@ -62,6 +83,8 @@ This file remains the source of truth for:
 - active symbol IDs and sequence
 - wheel population rules
 - production character-set constraints
+
+Per-symbol provenance, Unicode reference values, and prop-accuracy tracking are maintained in the symbol registers.
 
 ### Chat-agreed base sequence (one pass of 26)
 
@@ -130,6 +153,12 @@ If a future revision introduces utility symbols (for example SPACE, COLON, DASH,
 - Numerals: `n-0.svg` ... `n-9.svg`
 - Themed glyphs: `h-1.svg` ... `h-16.svg`
 - Composite flap art: `flap-<symbol-id>.svg`
+
+ID style and filename mapping rules:
+
+- Canonical IDs are `N0-N9` and `H1-H16`.
+- Master filenames are lowercase with hyphen separator, for example `H11` -> `h-11.svg`.
+- Do not zero-pad the numeric portion unless a future decision record changes this rule.
 
 ## Change control
 
