@@ -13,16 +13,16 @@ Reference definitions:
 
 | Symbol ID | Symbol name | Artwork file target | Variant files (color groups) | Vector status | Notes |
 |---|---|---|---|---|---|
-| N0 | 0 | `n-0.svg` | `flap-n0-d1-3.svg`, `flap-n0-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N1 | 1 | `n-1.svg` | `flap-n1-d1-3.svg`, `flap-n1-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N2 | 2 | `n-2.svg` | `flap-n2-d1-3.svg`, `flap-n2-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N3 | 3 | `n-3.svg` | `flap-n3-d1-3.svg`, `flap-n3-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N4 | 4 | `n-4.svg` | `flap-n4-d1-3.svg`, `flap-n4-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N5 | 5 | `n-5.svg` | `flap-n5-d1-3.svg`, `flap-n5-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N6 | 6 | `n-6.svg` | `flap-n6-d1-3.svg`, `flap-n6-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N7 | 7 | `n-7.svg` | `flap-n7-d1-3.svg`, `flap-n7-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N8 | 8 | `n-8.svg` | `flap-n8-d1-3.svg`, `flap-n8-d4-5.svg` | Pending | Active canonical numeral symbol |
-| N9 | 9 | `n-9.svg` | `flap-n9-d1-3.svg`, `flap-n9-d4-5.svg` | Pending | Active canonical numeral symbol |
+| N0 | 0 | `n-0.svg` | `flap-n0-d1-3.svg`, `flap-n0-d4-5.svg` | Draft | Pilot master created in `master/n-0.svg` |
+| N1 | 1 | `n-1.svg` | `flap-n1-d1-3.svg`, `flap-n1-d4-5.svg` | Draft | Pilot master created in `master/n-1.svg` |
+| N2 | 2 | `n-2.svg` | `flap-n2-d1-3.svg`, `flap-n2-d4-5.svg` | Draft | Master created in `master/n-2.svg` |
+| N3 | 3 | `n-3.svg` | `flap-n3-d1-3.svg`, `flap-n3-d4-5.svg` | Draft | Master created in `master/n-3.svg` |
+| N4 | 4 | `n-4.svg` | `flap-n4-d1-3.svg`, `flap-n4-d4-5.svg` | Draft | Master created in `master/n-4.svg` |
+| N5 | 5 | `n-5.svg` | `flap-n5-d1-3.svg`, `flap-n5-d4-5.svg` | Draft | Master created in `master/n-5.svg` |
+| N6 | 6 | `n-6.svg` | `flap-n6-d1-3.svg`, `flap-n6-d4-5.svg` | Draft | Master created in `master/n-6.svg` |
+| N7 | 7 | `n-7.svg` | `flap-n7-d1-3.svg`, `flap-n7-d4-5.svg` | Draft | Master created in `master/n-7.svg` |
+| N8 | 8 | `n-8.svg` | `flap-n8-d1-3.svg`, `flap-n8-d4-5.svg` | Draft | Pilot master created in `master/n-8.svg` |
+| N9 | 9 | `n-9.svg` | `flap-n9-d1-3.svg`, `flap-n9-d4-5.svg` | Draft | Master created in `master/n-9.svg` |
 
 ## Completion criteria
 

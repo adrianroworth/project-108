@@ -13,22 +13,22 @@ Reference definitions:
 
 | Symbol ID | Symbol | Gardiner code | Unicode | Description | Artwork file target | Vector status | Notes |
 |---|---|---|---|---|---|---|---|
-| H1 | &#x132F4; | S29 | U+132F4 | Folded cloth | `h-1.svg` | Pending | Standard Gardiner description |
-| H2 | &#x133F2; | Z7 | U+133F2 | Coil (hieratic equivalent) | `h-2.svg` | Pending | Project shorthand: Spiral/Curl |
-| H3 | &#x13351; | U28 | U+13351 | Fire-drill | `h-3.svg` | Pending | Corrected from `U29`; standard Gardiner mapping |
-| H4 | &#x1313F; | G1 | U+1313F | Egyptian vulture | `h-4.svg` | Pending | Project shorthand: Vulture |
-| H5 | &#x13333; | U1 | U+13333 | Forked stick | `h-5.svg` | Pending | Confirmed mapping: Gardiner `U1`, Unicode `U+13333`; project-facing label kept |
-| H6 | &#x1340D; | Aa1 | U+1340D | Placenta or sieve | `h-6.svg` | Pending | Standard Gardiner description; unclassified sign group |
-| H7 | &#x13001; | A2 | U+13001 | Man with hand to mouth | `h-7.svg` | Pending | Project shorthand previously used: Seated man |
-| H8 | &#x13250; | O1 | U+13250 | House | `h-8.svg` | Pending | Standard Gardiner description |
-| H9 | &#x1332A; | T30 | U+1332A | Knife | `h-9.svg` | Pending | Standard Gardiner description |
-| H10 | &#x1320E; | N29 | U+1320E | Slope of hill | `h-10.svg` | Pending | Project shorthand: Hill |
-| H11 | &#x131F3; | N5 | U+131F3 | Sun | `h-11.svg` | Pending | Standard Gardiner description |
-| H12 | &#x131EF; | N1 | U+131EF | Sky | `h-12.svg` | Pending | Standard Gardiner description |
-| H13 | &#x131BC; | M12 | U+131BC | One lotus plant | `h-13.svg` | Pending | Project shorthand previously used: Reed |
-| H14 | &#x131BD; | M12A | U+131BD | Two lotus plants | `h-14.svg` | Pending | Project shorthand previously used: Double reed |
-| H15 | &#x13217; | N35A | U+13217 | Three ripples of water | `h-15.svg` | Pending | Project shorthand previously used: Water ripple |
-| H16 | &#x131CB; | M17 | U+131CB | Reed | `h-16.svg` | Pending | Project shorthand previously used: Reed leaf |
+| H1 | &#x132F4; | S29 | U+132F4 | Folded cloth | `h-1.svg` | Draft | Master created in `master/h-1.svg` |
+| H2 | &#x133F2; | Z7 | U+133F2 | Coil (hieratic equivalent) | `h-2.svg` | Draft | Master created in `master/h-2.svg` |
+| H3 | &#x13351; | U28 | U+13351 | Fire-drill | `h-3.svg` | Draft | Master created in `master/h-3.svg` |
+| H4 | &#x1313F; | G1 | U+1313F | Egyptian vulture | `h-4.svg` | Draft | Master created in `master/h-4.svg` |
+| H5 | &#x13333; | U1 | U+13333 | Forked stick | `h-5.svg` | Draft | Master created in `master/h-5.svg` |
+| H6 | &#x1340D; | Aa1 | U+1340D | Placenta or sieve | `h-6.svg` | Draft | Master created in `master/h-6.svg` |
+| H7 | &#x13001; | A2 | U+13001 | Man with hand to mouth | `h-7.svg` | Draft | Master created in `master/h-7.svg` |
+| H8 | &#x13250; | O1 | U+13250 | House | `h-8.svg` | Draft | Master created in `master/h-8.svg` |
+| H9 | &#x1332A; | T30 | U+1332A | Knife | `h-9.svg` | Draft | Master created in `master/h-9.svg` |
+| H10 | &#x1320E; | N29 | U+1320E | Slope of hill | `h-10.svg` | Draft | Master created in `master/h-10.svg` |
+| H11 | &#x131F3; | N5 | U+131F3 | Sun | `h-11.svg` | Draft | Pilot master created in `master/h-11.svg` |
+| H12 | &#x131EF; | N1 | U+131EF | Sky | `h-12.svg` | Draft | Master created in `master/h-12.svg` |
+| H13 | &#x131BC; | M12 | U+131BC | One lotus plant | `h-13.svg` | Draft | Master created in `master/h-13.svg` |
+| H14 | &#x131BD; | M12A | U+131BD | Two lotus plants | `h-14.svg` | Draft | Master created in `master/h-14.svg` |
+| H15 | &#x13217; | N35A | U+13217 | Three ripples of water | `h-15.svg` | Draft | Pilot master created in `master/h-15.svg` |
+| H16 | &#x131CB; | M17 | U+131CB | Reed | `h-16.svg` | Draft | Master created in `master/h-16.svg` |
 
 ## Gardiner references
 
