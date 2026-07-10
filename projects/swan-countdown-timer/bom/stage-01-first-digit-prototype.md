@@ -15,6 +15,7 @@ Goal: produce one reliable split-flap digit with homing, indexed motion, and rep
 |---|---|---:|---:|---|
 | DEEPLEE PLA Plus White 1kg | B0DCHXCSZ7 | 1 | 10.99 GBP | White print tests and contrast parts |
 | DEEPLEE Rapid PLA Plus Black 1kg | B0DKFJLXSD | 1 | 10.99 GBP | Main prototype print material |
+| DEEPLEE PLA Plus Red 1kg | B0DCHVFRB2 | 1 | 15.99 GBP | Red print material for display graphics and accents |
 | 2x1 mm N52 magnets (100) | B0FH1W4ZM4 | 1 pack | 5.49 GBP | Magnet-triggered indexing/homing tests |
 | AH3144E hall sensors (20) | B0GRGPRV66 | 1 pack | 5.99 GBP | Home sensor and position-detect tests |
 | 28BYJ-48 + ULN2003 kit | B09Z27VDHJ | 1 | 8.79 GBP | Stepper drive and indexing control |
@@ -22,6 +23,8 @@ Goal: produce one reliable split-flap digit with homing, indexed motion, and rep
 | 623ZZ bearings (pack) | B0DHRNQZWB | 1 pack | 6.99 GBP | Drum support and reduced friction |
 | Dupont jumper wire kit | B01EV70C78 | 1 kit | 6.99 GBP | Breadboard interconnects |
 | M3 screw assortment kit | B0G3PNC4FM | 1 kit | 6.99 GBP | Frame and mechanism assembly |
+
+Running total (purchased): 85.20 GBP
 
 ## Still needed for Stage 01
 
