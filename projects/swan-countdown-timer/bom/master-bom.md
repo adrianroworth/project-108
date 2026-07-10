@@ -14,6 +14,7 @@ Status values:
 |---|---|---|---|---|---:|---:|---|---:|---|
 | Printing | DEEPLEE PLA Plus 1.75mm White 1kg | Amazon UK | B0DCHXCSZ7 | Stage 01 | 1 | 1 | Purchased | 10.99 GBP | White parts and test prints |
 | Printing | DEEPLEE Rapid PLA Plus 1.75mm Black 1kg | Amazon UK | B0DKFJLXSD | Stage 01 | 1 | 1 | Purchased | 10.99 GBP | Primary black prototype prints |
+| Printing | DEEPLEE PLA Plus 1.75mm Red 1kg | Amazon UK | B0DCHVFRB2 | Stage 01 | 1 | 1 | Purchased | 15.99 GBP | Red flap graphics and accent prints |
 | Mechanical | 2x1 mm N52 neodymium magnets (100 pack) | Amazon UK | B0FH1W4ZM4 | Stage 01 | 1 pack | 1 pack | Purchased | 5.49 GBP | Indexing and magnetic detection |
 | Sensing | AH3144E hall sensors (20 pack) | Amazon UK | B0GRGPRV66 | Stage 01 | 1 pack | 1 pack | Purchased | 5.99 GBP | Home/index sensor experiments |
 | Motion | 28BYJ-48 + ULN2003 stepper kit | Amazon UK | B09Z27VDHJ | Stage 01 | 1 | 1 | Purchased | 8.79 GBP | First-digit motion prototype |
@@ -38,3 +39,4 @@ Status values:
 - Prices are approximate and should be updated when purchases are confirmed.
 - Stage assignment is design-intent based and can change if implementation changes.
 - Keep this file as the source of truth; stage files are focused working views.
+- Running total (purchased items): 85.20 GBP.
