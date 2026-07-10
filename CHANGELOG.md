@@ -4,6 +4,10 @@
 
 - Added decision record `2026-07-10-artwork-source-of-truth-and-reference-hierarchy.md` to formalize master SVG symbols as visual source of truth and Unicode/Gardiner as metadata references
 - Updated Swan symbol inventory plus numeral and hieroglyph symbol registers with provenance-oriented metadata (`Unicode reference`, reference tier, evidence reference, prop accuracy)
+- Added formal symbol update process guide at `projects/swan-countdown-timer/docs/15-artwork-source-of-truth-workflow.md` and linked it from Swan docs/artwork readmes
+- Added end-to-end artwork runbook at `projects/swan-countdown-timer/docs/16-artwork-update-runbook.md` plus embedded quick-checklist sections in both symbol registers
+- Added a hieroglyph quality-review rubric and scoring guide to the artwork runbook to standardize shape/style acceptance before promotion to `Approved`
+- Added executable artwork generation and QA scripts under `projects/swan-countdown-timer/tools/artwork/` and documented run commands in runbook/tooling docs
 
 ## 0.2.0 - 2026-07-10
 
