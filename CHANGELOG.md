@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- Switched numeral prototype font preference from Bahnschrift to Arial Black in lettering spec and register-driven master generator
+- Added decision record `2026-07-10-numeral-font-freeze-arial-black.md` to formally freeze numeral font choice for prototype-r0
+- Replaced hand-drawn placeholder symbol masters with register-driven master generation so `N0-N9` and `H1-H16` are sourced from symbol-register IDs and Unicode mappings
+- Added no-dependency SVG asset tooling (`tools/artwork/build-svg-assets.mjs`, `tools/artwork/qa-svg-assets.mjs`) and documented master/generated artwork workflow
+- Added pilot subset support to artwork tooling via `--symbols=` for focused generation and QA runs
+- Added initial pilot master symbols (`N0`, `N1`, `N8`, `H11`, `H15`) and generated validated split-panel/color variant outputs for those IDs
+- Added remaining numeral master SVGs (`N2-N7`, `N9`) so full `N0-N9` numeral batch generation is now available
+- Added remaining hieroglyph master SVGs (`H1-H16` complete) so full 26-symbol generation can run from master assets
 - Added Swan domain language reference at `projects/swan-countdown-timer/docs/14-domain-language.md` to standardize position/character/panel terminology
 - Aligned project docs to 52-position terminology and removed remaining 50-flap/40-position references in active Swan docs
 - Added split-panel topology terminology (`position`, `character`, `upper panel`, `lower panel`, `flap pair`, `flap set`) to the shared glossary
