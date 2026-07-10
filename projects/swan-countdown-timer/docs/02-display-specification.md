@@ -18,7 +18,10 @@ This document defines the display requirements for the Swan Countdown Timer buil
 ## Flap and wheel parameters
 
 - Planned wheel positions: 52 per digit (26 unique symbols repeated twice).
+- Topology: conventional split-pair character display (upper panel + lower panel).
+- Prototype-r0 panel size target: 54 mm (width) x 43 mm (half height) x 1.0 mm (thickness).
 - Symbol order and wheel population are defined in `03-symbol-inventory.md`.
+- Machine-readable geometry and artwork parameters are defined in `../artwork/flap-layouts/flap-spec.yaml`.
 - Recommended material for flaps: matte black PLA for bodies, white PLA for letters or contrast details.
 
 ## Lettering and flap graphics

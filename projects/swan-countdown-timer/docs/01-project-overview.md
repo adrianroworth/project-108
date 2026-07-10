@@ -14,7 +14,7 @@ This document describes what the project is, why it exists, and the initial scop
 ## Initial scope
 
 - One working split-flap digit prototype.
-- Pilot batch of approximately 50 flaps for fit, finish, and movement validation.
+- Pilot batch followed by one complete 52-position prototype set for fit, finish, and movement validation.
 - Modular digit modules that can be combined into the full display.
 - A reusable file and asset structure for CAD, artwork, firmware, electronics, and documentation.
 

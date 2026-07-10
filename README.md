@@ -8,22 +8,22 @@ Build high-quality, mechanically authentic replicas with detailed documentation,
 
 ## Current work
 
-- `projects/swan-countdown-timer/` — the first active build
-- `docs/` — shared design and process documentation
-- `shared/` — common artwork, fonts, symbols, tools, and firmware libraries
-- `future-projects/` — proposed next builds for the Project 108 umbrella
+- `projects/swan-countdown-timer/` ï¿½ the first active build
+- `docs/` ï¿½ shared design and process documentation
+- `shared/` ï¿½ common artwork, fonts, symbols, tools, and firmware libraries
+- `future-projects/` ï¿½ proposed next builds for the Project 108 umbrella
 
 ## Repository layout
 
-- `README.md` — this umbrella project introduction
-- `LICENSE` — repository license
-- `CHANGELOG.md` — change history and version notes
-- `ROADMAP.md` — planned milestones
-- `CONTRIBUTING.md` — contribution guidelines
-- `docs/` — shared principles, glossary, and decisions
-- `projects/` — active and completed Project 108 builds
-- `shared/` — reusable assets and libraries
-- `future-projects/` — ideas and proposed builds to pursue later
+- `README.md` ï¿½ this umbrella project introduction
+- `LICENSE` ï¿½ repository license
+- `CHANGELOG.md` ï¿½ change history and version notes
+- `ROADMAP.md` ï¿½ planned milestones
+- `CONTRIBUTING.md` ï¿½ contribution guidelines
+- `docs/` ï¿½ shared principles, glossary, and decisions
+- `projects/` ï¿½ active and completed Project 108 builds
+- `shared/` ï¿½ reusable assets and libraries
+- `future-projects/` ï¿½ ideas and proposed builds to pursue later
 
 ## How to use this repo
 
@@ -38,4 +38,4 @@ Project 108 is intentionally broader than a single clock. It is the home for a f
 
 ## Current status
 
-This repository is in initial setup. The first goal is to validate one working split-flap digit, print a small batch of flaps, and document the build process before scaling the design.
+This repository is in initial setup. The first goal is to validate one working split-flap digit, print a pilot batch followed by one complete 52-position prototype set, and document the build process before scaling the design.

@@ -10,7 +10,7 @@
 ## Phase 2 – Prototype
 
 - Design and print one working split-flap digit
-- Validate a pilot batch of approximately 50 flaps
+- Validate a pilot batch, then one complete 52-position prototype set
 - Verify hinge fit, flap movement, and material finish
 - Maintain a stage-specific prototype BOM and master part ledger
 
