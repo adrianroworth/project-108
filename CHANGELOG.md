@@ -8,6 +8,8 @@
 - Standardized hieroglyphs to permanent `H1`-`H16` IDs and updated the known symbol names in the register
 - Added full Gardiner-code mapping, descriptions, and external reference links for all H1-H16 hieroglyph symbols
 - Corrected several Gardiner/Unicode mappings to match the standard sign list and marked unresolved project-specific sign mapping as `TBD`
+- Added DEEPLEE PLA Plus Red 1kg (ASIN B0DCHVFRB2) to purchased Stage 01 and master BOM lists
+- Added explicit purchased-items running total: 85.20 GBP
 
 ## 0.1.0 - Initial repository setup
 
