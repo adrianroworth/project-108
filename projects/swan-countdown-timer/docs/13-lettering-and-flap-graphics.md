@@ -22,21 +22,22 @@ Note: utility separator symbols are not part of the active 52-flap production se
 
 ### Primary font for prototype lettering
 
-- Font family: Bahnschrift
+- Font family (numerals): Arial Black
+- Font family (hieroglyph references): Segoe UI Historic or Noto Sans Egyptian Hieroglyphs
 - Weight: SemiBold or Bold
 - Style: Upright
 - Case: Uppercase only where letters are used
 
 ### Fallback stack
 
-- DIN Alternate Bold
-- Arial Narrow Bold
-- Liberation Sans Narrow Bold
+- For numerals: Bahnschrift, DIN Alternate Bold, Arial Narrow Bold
+- For hieroglyph references: Noto Sans Egyptian Hieroglyphs, serif fallback
 
 ### Final-font policy
 
 - Prototype may use system fonts for speed.
 - Before production flap batches, freeze one font-family and document the exact file/version in a decision record.
+- Current numeral font freeze record: `decisions/2026-07-10-numeral-font-freeze-arial-black.md`.
 
 ## Glyph geometry standards
 
@@ -107,10 +108,10 @@ This section records the color mapping explicitly described in the shared planni
 ## Flap artwork production pipeline
 
 1. Build or update glyph source in `artwork/numerals/` or `artwork/hieroglyphs/`.
-2. Compose normalized complete character artwork in `artwork/flap-layouts/`.
-3. Split each character into upper and lower panel artwork using the current topology settings.
-4. Export print-ready SVG and optional raster previews.
-5. Validate using the QA checklist below before print batch.
+2. Keep profile and geometry parameters in `artwork/flap-layouts/flap-spec.yaml`.
+3. Generate full/panel/color assets with `node tools/artwork/build-svg-assets.mjs`.
+4. Validate generated and source asset constraints with `node tools/artwork/qa-svg-assets.mjs`.
+5. Export print-ready outputs and optional raster previews.
 
 ## QA checklist for lettering
 

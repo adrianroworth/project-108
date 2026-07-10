@@ -4,7 +4,7 @@ This folder stores source glyph artwork for numeric characters used on flaps.
 
 ## Expected files
 
-- `n-0.svg` through `n-9.svg`
+- `master/n-0.svg` through `master/n-9.svg`
 - Optional alternates: `n-<digit>-alt.svg`
 
 ## Typography rules
@@ -16,5 +16,5 @@ This folder stores source glyph artwork for numeric characters used on flaps.
 ## Notes
 
 - These files should contain glyph artwork only, not full flap templates.
-- Final per-flap compositions belong in `artwork/flap-layouts/`.
+- Generated panel outputs are created under `artwork/generated/` via `tools/artwork/build-svg-assets.mjs`.
 - Explicit numeral ID and SVG tracking table: `symbol-register.md`.
