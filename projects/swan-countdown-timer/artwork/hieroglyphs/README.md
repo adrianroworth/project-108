@@ -4,7 +4,7 @@ This folder stores themed glyph artwork used on split-flap symbols.
 
 ## Expected files
 
-- `h-01.svg` through `h-16.svg`
+- `master/h-1.svg` through `master/h-16.svg`
 - Optional alternates: `h-<id>-alt.svg`
 
 ## Design rules
@@ -16,6 +16,7 @@ This folder stores themed glyph artwork used on split-flap symbols.
 ## Notes
 
 - Symbol IDs must match `docs/03-symbol-inventory.md`.
+- Generated panel outputs are created under `artwork/generated/` via `tools/artwork/build-svg-assets.mjs`.
 - If symbol count or IDs change, update docs before generating production flap files.
 - Explicit symbol register and asset-tracking table: `symbol-register.md`.
 
