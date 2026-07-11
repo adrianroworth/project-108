@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol N1</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M440 280 L560 240 L560 760 L440 760 Z"/>
+    <path d="M400 320 L560 240 L560 350 L450 400 Z"/>
+  </g>
+</svg>

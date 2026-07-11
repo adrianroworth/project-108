@@ -1,0 +1,1 @@
+this folder contains low-fidelity examples of the full 5 digit timer. the file name is representative of the placement of the digits in the image. e.g. 99991.png means that the timer reads 9 9 9 9 1 for the split flap digits. 93HHH means that a 9 3 hieroglyph hieroglyph hieroglyph is in the image.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol H15</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M200 660 C270 610 340 610 410 660 C340 710 270 710 200 660 Z"/>
+    <path d="M340 600 C410 550 480 550 550 600 C480 650 410 650 340 600 Z"/>
+    <path d="M480 540 C550 490 620 490 690 540 C620 590 550 590 480 540 Z"/>
+  </g>
+</svg>

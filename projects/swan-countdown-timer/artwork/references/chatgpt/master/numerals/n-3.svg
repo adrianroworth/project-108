@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol N3</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M350 280 L680 280 L680 390 L470 390 L470 455 L600 455 C690 455 745 510 745 585 C745 690 665 760 540 760 L360 760 L360 650 L525 650 C585 650 625 630 625 585 C625 540 585 520 525 520 L450 520 L450 410 L555 390 L350 390 Z"/>
+  </g>
+</svg>

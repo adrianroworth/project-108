@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol H11</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M500 290 C430 290 370 370 370 470 C370 570 430 650 500 650 C570 650 630 570 630 470 C630 370 570 290 500 290 Z"/>
+    <rect x="420" y="650" width="160" height="45" rx="20" ry="20"/>
+    <rect x="360" y="690" width="280" height="45" rx="20" ry="20"/>
+  </g>
+</svg>

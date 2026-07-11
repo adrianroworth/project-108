@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol H2</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M510 320 C460 300 390 330 360 390 C330 450 350 520 400 560 C450 600 510 600 560 570 L540 520 C510 540 470 540 440 520 C410 500 400 460 420 420 C440 380 480 370 510 390 C540 410 540 450 520 480 C500 510 470 530 430 550 L360 580 C330 590 310 620 310 650 C310 700 360 730 400 710 L570 640 L550 590 L430 640 C410 650 390 640 390 620 C390 610 400 600 410 600 L480 570 C530 550 570 510 590 460 C610 400 580 340 510 320 Z"/>
+  </g>
+</svg>

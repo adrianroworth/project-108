@@ -1,0 +1,1 @@
+this folder contains low-fidelity examples of the first 5 hieroglyphs that would be on each digit split flap display. I am requiring high-fidelity version of these in the format provided in the "master" folder.

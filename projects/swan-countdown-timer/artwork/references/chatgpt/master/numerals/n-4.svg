@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol N4</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M570 240 L690 240 L690 760 L570 760 Z"/>
+    <path d="M330 540 L570 240 L570 400 L450 540 Z"/>
+    <rect x="330" y="540" width="360" height="100"/>
+  </g>
+</svg>

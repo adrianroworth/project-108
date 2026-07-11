@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol N9</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M490 240 C390 240 310 310 310 410 C310 510 390 580 490 580 C530 580 570 570 600 540 L600 760 L500 760 L500 630 C390 630 310 560 310 450 C310 330 390 240 490 240 Z M490 330 C440 330 410 360 410 410 C410 460 440 490 490 490 C540 490 570 460 570 410 C570 360 540 330 490 330 Z"/>
+  </g>
+</svg>

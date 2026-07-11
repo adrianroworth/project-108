@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol H4</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M220 700 L260 320 C310 300 360 300 400 320 C430 340 440 360 440 390 C440 440 400 470 350 480 L410 580 L470 680 L580 740 L660 740 L690 700 L710 700 L710 760 L580 760 L470 720 L440 720 L440 740 L390 740 L390 710 L350 690 L300 640 L270 600 L230 740 L180 740 L220 700 Z"/>
+    <circle cx="352" cy="376" r="14"/>
+  </g>
+</svg>

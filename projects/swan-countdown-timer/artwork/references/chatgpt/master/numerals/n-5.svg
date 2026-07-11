@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol N5</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <rect x="340" y="240" width="330" height="100"/>
+    <rect x="340" y="240" width="110" height="250"/>
+    <path d="M450 490 L600 490 C670 490 720 550 720 620 C720 700 660 760 570 760 L360 760 L360 660 L560 660 C600 660 620 640 620 610 C620 580 600 560 560 560 L450 560 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+this folder contains the master SVGs that are used in the project as the source of truth for that particular digit layout and structure. they need to be as high res as possible whilst holding true to the font used in the tv show "lost" for the swan hatch timer.

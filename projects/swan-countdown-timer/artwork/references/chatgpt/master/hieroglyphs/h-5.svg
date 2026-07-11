@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>Master symbol H5</title>
+  <desc>Project-owned master symbol artwork used as the visual source of truth.</desc>
+  <g id="glyph" fill="#ffffff">
+    <path d="M250 300 L290 270 L610 610 L710 610 L750 640 L720 690 L610 670 L250 300 Z"/>
+    <path d="M610 610 L660 580 L720 580 L740 620 L700 640 L630 640 Z"/>
+  </g>
+</svg>
