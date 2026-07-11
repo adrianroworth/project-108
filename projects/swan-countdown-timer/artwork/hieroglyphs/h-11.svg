@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
   <title>Swan hieroglyph H11</title>
-  <desc>Seed source-of-truth hieroglyph vector for H11 (Sun). Replace with prop-matched geometry when Tier 1 references are captured.</desc>
+  <desc>Draft prop-style sun sign traced from reference image set. This is project-owned vector geometry, not a Unicode font glyph.</desc>
   <g id="glyph" fill="#111111">
-    <text x="50" y="78" text-anchor="middle" font-family="Noto Sans Egyptian Hieroglyphs, Segoe UI Symbol, sans-serif" font-size="70" dominant-baseline="alphabetic">&#x131F3;</text>
+    <path d="M50 29 C43 29 37 37 37 47 C37 57 43 65 50 65 C57 65 63 57 63 47 C63 37 57 29 50 29 Z"/>
+    <rect x="42" y="65" width="16" height="4.5" rx="2" ry="2"/>
+    <rect x="36" y="69" width="28" height="4.5" rx="2" ry="2"/>
   </g>
 </svg>

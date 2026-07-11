@@ -8,6 +8,9 @@
 - Added end-to-end artwork runbook at `projects/swan-countdown-timer/docs/16-artwork-update-runbook.md` plus embedded quick-checklist sections in both symbol registers
 - Added a hieroglyph quality-review rubric and scoring guide to the artwork runbook to standardize shape/style acceptance before promotion to `Approved`
 - Added executable artwork generation and QA scripts under `projects/swan-countdown-timer/tools/artwork/` and documented run commands in runbook/tooling docs
+- Added dedicated reference image set for `H1-H5` and displayed-digit references (`44444.png`, `55555.png`, `99991.png`) under `projects/swan-countdown-timer/artwork/references/`
+- Redrew `H1-H5` source/master hieroglyph vectors from dedicated references and upgraded metadata traceability entries in the hieroglyph register
+- Updated numeral source/master vectors and register evidence for `N1`, `N4`, `N5`, and `N9` using new displayed-digit references
 
 ## 0.2.0 - 2026-07-10
 

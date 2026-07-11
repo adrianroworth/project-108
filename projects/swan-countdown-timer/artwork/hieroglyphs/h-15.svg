@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan hieroglyph H15</title>
+  <desc>Draft prop-style water-ripple sign traced in LOST-inspired stroke style. This is project-owned vector geometry, not a Unicode font glyph.</desc>
+  <g id="glyph" fill="#111111">
+    <path d="M20 66 C27 61 34 61 41 66 C34 71 27 71 20 66 Z"/>
+    <path d="M34 60 C41 55 48 55 55 60 C48 65 41 65 34 60 Z"/>
+    <path d="M48 54 C55 49 62 49 69 54 C62 59 55 59 48 54 Z"/>
+  </g>
+</svg>

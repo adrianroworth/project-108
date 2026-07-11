@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan numeral N5</title>
+  <desc>Draft LOST-style numeral 5 traced from displayed-clock reference.</desc>
+  <g id="glyph" fill="#111111">
+    <rect x="34" y="24" width="33" height="10"/>
+    <rect x="34" y="24" width="11" height="25"/>
+    <path d="M45 49 L60 49 C67 49 72 55 72 62 C72 70 66 76 57 76 L36 76 L36 66 L56 66 C60 66 62 64 62 61 C62 58 60 56 56 56 L45 56 Z"/>
+  </g>
+</svg>

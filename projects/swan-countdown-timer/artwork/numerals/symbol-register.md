@@ -27,15 +27,15 @@ End-to-end runbook: `../../docs/16-artwork-update-runbook.md`.
 | Symbol ID | Symbol name | Unicode reference | Artwork file target | Variant files (color groups) | Vector status | Reference tier | Evidence ref | Prop accuracy | Notes |
 |---|---|---|---|---|---|---|---|---|---|
 | N0 | 0 | U+0030 | `n-0.svg` | `flap-n0-d1-3.svg`, `flap-n0-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
-| N1 | 1 | U+0031 | `n-1.svg` | `flap-n1-d1-3.svg`, `flap-n1-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
+| N1 | 1 | U+0031 | `n-1.svg` | `flap-n1-d1-3.svg`, `flap-n1-d4-5.svg` | Draft | Tier 2 | references/99991.png (digit 5) | B | Display reference shows terminal shape and stem width clearly |
 | N2 | 2 | U+0032 | `n-2.svg` | `flap-n2-d1-3.svg`, `flap-n2-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
 | N3 | 3 | U+0033 | `n-3.svg` | `flap-n3-d1-3.svg`, `flap-n3-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
-| N4 | 4 | U+0034 | `n-4.svg` | `flap-n4-d1-3.svg`, `flap-n4-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
-| N5 | 5 | U+0035 | `n-5.svg` | `flap-n5-d1-3.svg`, `flap-n5-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
+| N4 | 4 | U+0034 | `n-4.svg` | `flap-n4-d1-3.svg`, `flap-n4-d4-5.svg` | Draft | Tier 2 | references/44444.png | B | Dedicated displayed-digit reference added |
+| N5 | 5 | U+0035 | `n-5.svg` | `flap-n5-d1-3.svg`, `flap-n5-d4-5.svg` | Draft | Tier 2 | references/55555.png | B | Dedicated displayed-digit reference added |
 | N6 | 6 | U+0036 | `n-6.svg` | `flap-n6-d1-3.svg`, `flap-n6-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
 | N7 | 7 | U+0037 | `n-7.svg` | `flap-n7-d1-3.svg`, `flap-n7-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
 | N8 | 8 | U+0038 | `n-8.svg` | `flap-n8-d1-3.svg`, `flap-n8-d4-5.svg` | Draft | Tier 4 | Unicode fallback U+0038 | D | Seed source-of-truth vector created; replace with screen reference when available |
-| N9 | 9 | U+0039 | `n-9.svg` | `flap-n9-d1-3.svg`, `flap-n9-d4-5.svg` | Pending | TBD | TBD | TBD | Active canonical numeral symbol |
+| N9 | 9 | U+0039 | `n-9.svg` | `flap-n9-d1-3.svg`, `flap-n9-d4-5.svg` | Draft | Tier 2 | references/99991.png (digits 1-4) | B | Dedicated displayed-digit reference added |
 
 Reference tier values:
 

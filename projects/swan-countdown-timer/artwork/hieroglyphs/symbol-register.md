@@ -26,21 +26,21 @@ End-to-end runbook: `../../docs/16-artwork-update-runbook.md`.
 
 | Symbol ID | Symbol | Gardiner code | Unicode reference | Description | Artwork file target | Vector status | Reference tier | Evidence ref | Prop accuracy | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| H1 | &#x132F4; | S29 | U+132F4 | Folded cloth | `h-1.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
-| H2 | &#x133F2; | Z7 | U+133F2 | Coil (hieratic equivalent) | `h-2.svg` | Pending | TBD | TBD | TBD | Project shorthand: Spiral/Curl |
-| H3 | &#x13351; | U28 | U+13351 | Fire-drill | `h-3.svg` | Pending | TBD | TBD | TBD | Corrected from `U29`; standard Gardiner mapping |
-| H4 | &#x1313F; | G1 | U+1313F | Egyptian vulture | `h-4.svg` | Pending | TBD | TBD | TBD | Project shorthand: Vulture |
-| H5 | &#x13333; | U1 | U+13333 | Forked stick | `h-5.svg` | Pending | TBD | TBD | TBD | Confirmed mapping: Gardiner `U1`, Unicode `U+13333`; project-facing label kept |
+| H1 | &#x132F4; | S29 | U+132F4 | Folded cloth | `h-1.svg` | Draft | Tier 2 | references/h1.png | C | Dedicated reference image added; geometry redrawn as project-owned vector |
+| H2 | &#x133F2; | Z7 | U+133F2 | Coil (hieratic equivalent) | `h-2.svg` | Draft | Tier 2 | references/h2.png | C | Dedicated reference image added; spiral proportion pending fine-tune |
+| H3 | &#x13351; | U28 | U+13351 | Fire-drill | `h-3.svg` | Draft | Tier 2 | references/h3.png | C | Dedicated reference image added; shaft thickness and base width to refine |
+| H4 | &#x1313F; | G1 | U+1313F | Egyptian vulture | `h-4.svg` | Review | Tier 2 | references/h4.png | B | Dedicated reference image added; silhouette and massing closer to prop |
+| H5 | &#x13333; | U1 | U+13333 | Forked stick | `h-5.svg` | Draft | Tier 2 | references/h5.png | C | Dedicated reference image added; fork terminal detail to refine |
 | H6 | &#x1340D; | Aa1 | U+1340D | Placenta or sieve | `h-6.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description; unclassified sign group |
 | H7 | &#x13001; | A2 | U+13001 | Man with hand to mouth | `h-7.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Seated man |
 | H8 | &#x13250; | O1 | U+13250 | House | `h-8.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
 | H9 | &#x1332A; | T30 | U+1332A | Knife | `h-9.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
 | H10 | &#x1320E; | N29 | U+1320E | Slope of hill | `h-10.svg` | Pending | TBD | TBD | TBD | Project shorthand: Hill |
-| H11 | &#x131F3; | N5 | U+131F3 | Sun | `h-11.svg` | Draft | Tier 4 | Unicode and Gardiner fallback (U+131F3 / N5) | D | Seed source-of-truth vector created; replace with Tier 1 screenshot evidence |
+| H11 | &#x131F3; | N5 | U+131F3 | Sun | `h-11.svg` | Review | Tier 3 | references/hieroglyphs.png (left cluster, right tile); style anchor references/10800.png | C | Unicode text placeholder replaced with project-owned prop-style vector geometry |
 | H12 | &#x131EF; | N1 | U+131EF | Sky | `h-12.svg` | Pending | TBD | TBD | TBD | Standard Gardiner description |
 | H13 | &#x131BC; | M12 | U+131BC | One lotus plant | `h-13.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Reed |
 | H14 | &#x131BD; | M12A | U+131BD | Two lotus plants | `h-14.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Double reed |
-| H15 | &#x13217; | N35A | U+13217 | Three ripples of water | `h-15.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Water ripple |
+| H15 | &#x13217; | N35A | U+13217 | Three ripples of water | `h-15.svg` | Draft | Tier 3 | references/hieroglyphs.png (left cluster, left tile) | C | Draft LOST-style ripple treatment; confirm wave spacing from better captures |
 | H16 | &#x131CB; | M17 | U+131CB | Reed | `h-16.svg` | Pending | TBD | TBD | TBD | Project shorthand previously used: Reed leaf |
 
 Reference tier values:

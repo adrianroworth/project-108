@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan hieroglyph H1</title>
+  <desc>Draft folded-cloth symbol traced from dedicated reference h1.png in LOST prop style.</desc>
+  <g id="glyph" fill="#111111">
+    <path d="M41 24 C44 20 49 20 52 24 L52 47 L47 47 L47 28 L45 28 L45 68 C45 71 43 74 40 76 L35 80 L31 75 L35 71 C37 69 38 67 38 64 L38 30 C38 26 39 25 41 24 Z"/>
+  </g>
+</svg>

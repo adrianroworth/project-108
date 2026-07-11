@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan hieroglyph H5</title>
+  <desc>Draft forked-stick symbol traced from dedicated reference h5.png in LOST prop style.</desc>
+  <g id="glyph" fill="#111111">
+    <path d="M25 30 L29 27 L61 61 L71 61 L75 64 L72 69 L61 67 L25 30 Z"/>
+    <path d="M61 61 L66 58 L72 58 L74 62 L70 64 L63 64 Z"/>
+  </g>
+</svg>

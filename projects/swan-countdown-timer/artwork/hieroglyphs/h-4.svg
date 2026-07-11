@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100mm" height="100mm" viewBox="0 0 100 100">
+  <title>Swan hieroglyph H4</title>
+  <desc>Draft prop-style vulture silhouette traced from reference image set. This is project-owned vector geometry, not a Unicode font glyph.</desc>
+  <g id="glyph" fill="#111111">
+    <path d="M22 70 L26 32 C31 30 36 30 40 32 C43 34 44 36 44 39 C44 44 40 47 35 48 L41 58 L47 68 L58 74 L66 74 L69 70 L71 70 L71 76 L58 76 L47 72 L44 72 L44 74 L39 74 L39 71 L35 69 L30 64 L27 60 L23 74 L18 74 L22 70 Z"/>
+    <circle cx="35.2" cy="37.6" r="1.4"/>
+  </g>
+</svg>
