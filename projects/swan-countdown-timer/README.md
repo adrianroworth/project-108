@@ -38,3 +38,7 @@ The Swan Countdown Timer is designed as a physical, mechanical split-flap displa
 ## Next step
 
 Start by reading `projects/swan-countdown-timer/docs/01-project-overview.md`, confirm the split-panel topology and prototype-r0 dimensions in `artwork/flap-layouts/flap-spec.yaml`, then validate a pilot batch before moving to a complete 52-position set.
+
+## Release status
+
+Latest documented milestone: `v0.3.0` (2026-07-11), establishing master SVGs as visual source-of-truth and formalizing the artwork build and QA workflow.

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- No changes yet.
+
+## 0.3.0 - 2026-07-11
+
 - Added decision record `2026-07-10-artwork-source-of-truth-and-reference-hierarchy.md` to formalize master SVG symbols as visual source of truth and Unicode/Gardiner as metadata references
 - Updated Swan symbol inventory plus numeral and hieroglyph symbol registers with provenance-oriented metadata (`Unicode reference`, reference tier, evidence reference, prop accuracy)
 - Added formal symbol update process guide at `projects/swan-countdown-timer/docs/15-artwork-source-of-truth-workflow.md` and linked it from Swan docs/artwork readmes

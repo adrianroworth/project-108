@@ -39,3 +39,4 @@ Project 108 is intentionally broader than a single clock. It is the home for a f
 ## Current status
 
 This repository is in initial setup. The first goal is to validate one working split-flap digit, print a pilot batch followed by one complete 52-position prototype set, and document the build process before scaling the design.
+Latest documented milestone: `v0.3.0` (2026-07-11), covering the Swan artwork source-of-truth policy, runbook, and generation/QA tooling workflow.
