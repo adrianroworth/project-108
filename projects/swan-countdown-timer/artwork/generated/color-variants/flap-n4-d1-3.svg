@@ -4,6 +4,6 @@
   <desc>Generated color variant for N4 in d1-3 group.</desc>
   <rect x="0" y="0" width="1000" height="1000" fill="#000000"/>
   <g id="glyph" fill="#FFFFFF" >
-    <text x="500" y="780" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="665" dominant-baseline="alphabetic">4</text>
+    <path d="M773.935119887165 589.6614950634696H692.524682651622V110.0H511.00141043723556L226.06488011283494 587.4612129760226V717.277856135402H538.5049365303244V890.0H692.524682651622V717.277856135402H773.935119887165ZM538.5049365303244 589.6614950634696H334.9788434414668L538.5049365303244 256.31875881523274Z" fill-rule="evenodd"/>
   </g>
 </svg>

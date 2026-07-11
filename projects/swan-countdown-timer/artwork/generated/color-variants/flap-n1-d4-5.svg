@@ -4,6 +4,6 @@
   <desc>Generated color variant for N1 in d4-5 group.</desc>
   <rect x="0" y="0" width="1000" height="1000" fill="#FFFFFF"/>
   <g id="glyph" fill="#000000" >
-    <text x="500" y="780" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="665" dominant-baseline="alphabetic">1</text>
+    <path d="M516.2905500705218 353.9280677009873V885.0H668.3356840620593V114.99999999999989H567.3342736248237C543.4414668547249 206.22708039492238 464.1607898448519 252.92665726375174 331.6643159379407 252.92665726375174V353.9280677009873Z" fill-rule="evenodd"/>
   </g>
 </svg>
