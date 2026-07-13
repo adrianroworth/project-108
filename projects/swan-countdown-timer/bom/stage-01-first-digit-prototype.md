@@ -2,6 +2,8 @@
 
 Goal: produce one reliable split-flap digit with homing, indexed motion, and repeatable flap switching.
 
+Primary milestone alignment: this stage is executed as `first-digit-prototype-r0`.
+
 ## Scope
 
 - Build only one digit module.
@@ -45,3 +47,25 @@ Running total (purchased): 85.20 GBP
 5. Initial flap subset flips reliably without jamming.
 
 When all five milestones are met, move deferred items from Stage 02 into active planning.
+
+## First-digit-prototype-r0 execution order
+
+Run the stage in this order so each risk is isolated before adding complexity:
+
+1. Motor-only bring-up (ESP32 + ULN2003 + 28BYJ-48).
+2. Hall-only bring-up (AH3144E + magnet polarity verification).
+3. Combined homing routine (repeatable zero detection).
+4. Early mechanical proof parts (hub, Hall bracket, blank flaps, tolerance coupon, partial wheel).
+5. 52-position indexing model and firmware API (`home`, single-step index, absolute move).
+6. Representative pilot subset print (approximately 6-10 flap pairs, varied geometry).
+7. Reliability run and serviceability checks.
+
+## Validation gates for Stage 01 closeout
+
+- Homing: same home location detected 20 consecutive cycles.
+- Indexing: full traversal of 52 logical positions and return-to-home with no off-by-one event.
+- Reliability: at least 500 commanded moves without jam.
+- Motion quality: representative flaps settle under gravity and do not require manual assist.
+- Serviceability: at least one flap, the wheel, and the motor can be removed without destructive teardown.
+
+Record slicer profile, material, measured dimensions, and any failure mode observed in each test run.

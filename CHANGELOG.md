@@ -2,7 +2,12 @@
 
 ## Unreleased
 
-- No changes yet.
+- Added `projects/swan-countdown-timer/docs/17-first-digit-prototype-r0.md` with a full staged execution guide covering electronics bring-up, mechanical proof parts, indexing firmware, representative pilot printing, and reliability gates
+- Added `projects/swan-countdown-timer/docs/18-first-digit-prototype-r0-test-log-template.md` to standardize per-run evidence capture for the active first-digit milestone
+- Added decision record `2026-07-13-first-digit-prototype-r0-milestone-and-validation-gates.md` to formalize milestone scope, sequencing, and closeout criteria
+- Updated Stage 01 BOM plan with explicit `first-digit-prototype-r0` execution order and measurable validation gates
+- Updated Swan docs index, testing doc, and milestone guide links so first-digit run logs use a shared template
+- Updated Swan README next-step guidance and umbrella roadmap entries to align with the new active implementation milestone
 
 ## 0.3.0 - 2026-07-11
 

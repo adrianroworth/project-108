@@ -10,6 +10,7 @@
 ## Phase 2 – Prototype
 
 - Design and print one working split-flap digit
+- Execute `first-digit-prototype-r0` as a staged engineering milestone (electronics bring-up, proof mechanics, indexing firmware, representative pilot subset, reliability gate)
 - Validate a pilot batch, then one complete 52-position prototype set
 - Verify hinge fit, flap movement, and material finish
 - Maintain a stage-specific prototype BOM and master part ledger
