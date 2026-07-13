@@ -44,6 +44,8 @@ Out of scope for `first-digit-prototype-r0`:
 
 Goal: prove each subsystem independently before integration.
 
+Before first power-on, copy and confirm the pin map in `../electronics/wiring/first-digit-prototype-r0-wiring-map.md`.
+
 1. Motor-only test
 - Wire ESP32 GPIO outputs to ULN2003 inputs.
 - Use separate 5V motor power and common ground with ESP32.

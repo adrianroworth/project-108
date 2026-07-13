@@ -31,6 +31,8 @@ The current implementation milestone is `first-digit-prototype-r0` and focuses o
 - ESP32 and motor-driver grounds must be tied together.
 - Hall output is treated as open-collector and pulled up to 3.3V for ESP32-safe GPIO input.
 
+Canonical connection mapping lives at `../electronics/wiring/first-digit-prototype-r0-wiring-map.md`.
+
 ## Bring-up order
 
 1. Motor-only test: verify stepping sequence and bidirectional motion.

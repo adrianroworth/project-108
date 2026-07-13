@@ -14,6 +14,7 @@ If you keep logs in another location, keep the section structure below unchanged
 - Operator:
 - Run ID:
 - Milestone: `first-digit-prototype-r0`
+- Physical build state: pre-build planning / bench wiring / partial assembly / assembled digit
 - Firmware revision/commit:
 - CAD revision/commit:
 - Slicer profile name/version:
