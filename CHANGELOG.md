@@ -2,7 +2,11 @@
 
 ## Unreleased
 
-- No changes yet.
+- Added an execution-plan documentation track for staged delivery: single-digit prototype, multi-digit expansion, webapp/API integration, physical enhancements, remote control, and power architecture planning
+- Added Swan decision records for stage-gated build sequencing, Blender/CAD print-artifact policy, and simplified single-digit commissioning API scope
+- Added a dedicated Swan planning/risk/next-steps document to capture current intent, identified gaps, and recommended immediate actions
+- Expanded roadmap phase definitions to separate prototype, multi-digit build, software integration, physical enhancements, and release phases
+- Updated Swan docs index and core implementation docs (firmware, testing, mechanical/CAD references) to link new planning and commissioning guidance
 
 ## 0.3.0 - 2026-07-11
 

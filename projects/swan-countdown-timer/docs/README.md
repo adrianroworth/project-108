@@ -11,6 +11,9 @@ Build-specific documentation for the Swan Countdown Timer, including design note
 - `14-domain-language.md`
 - `15-artwork-source-of-truth-workflow.md`
 - `16-artwork-update-runbook.md`
+- `17-execution-plan-risks-and-next-steps.md`
+- `18-blender-and-print-file-workflow.md`
+- `19-single-digit-commissioning-api.md`
 
 ## Decisions
 

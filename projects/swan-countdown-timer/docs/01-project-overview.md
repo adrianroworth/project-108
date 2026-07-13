@@ -17,6 +17,7 @@ This document describes what the project is, why it exists, and the initial scop
 - Pilot batch followed by one complete 52-position prototype set for fit, finish, and movement validation.
 - Modular digit modules that can be combined into the full display.
 - A reusable file and asset structure for CAD, artwork, firmware, electronics, and documentation.
+- A staged expansion path: first-digit commissioning, then multi-digit scaling, then webapp/API integration and enhancement features.
 
 ## Prototype status
 
@@ -60,3 +61,9 @@ These are intentionally deferred until the first digit works reliably:
 - Flaps fit cleanly and flip without binding.
 - The display uses a consistent character set and slot order.
 - The first build documentation is complete enough to guide a repeatable prototype.
+
+## Current planning references
+
+- Stage gates, risks, and immediate recommendations: `17-execution-plan-risks-and-next-steps.md`
+- Blender and print-artifact workflow intent: `18-blender-and-print-file-workflow.md`
+- Simplified first-digit test API: `19-single-digit-commissioning-api.md`
