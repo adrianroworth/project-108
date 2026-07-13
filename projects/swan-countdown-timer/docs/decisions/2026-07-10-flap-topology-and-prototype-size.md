@@ -1,7 +1,7 @@
 # Decision: Flap Topology and Prototype-r0 Panel Size
 
 - Date: 2026-07-10
-- Status: Proposed
+- Status: Approved
 - Context: The project needs a fixed mechanical topology and initial panel dimensions to begin generating split-flap artwork and printable panel sets without blocking on final enclosure scale.
 
 ## Options considered

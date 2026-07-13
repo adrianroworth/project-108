@@ -1,7 +1,7 @@
 # Decision: Character Set and Lettering Specification for Flaps
 
 - Date: 2026-07-09
-- Status: Proposed
+- Status: Approved
 - Context: The project needs a stable way to define flap symbols and typography during first-digit prototyping and later expansion.
 
 ## Options considered

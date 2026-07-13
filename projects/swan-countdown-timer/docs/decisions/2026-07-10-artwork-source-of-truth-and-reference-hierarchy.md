@@ -1,7 +1,7 @@
 # Decision: Symbol Artwork Source of Truth and Reference Hierarchy
 
 - Date: 2026-07-10
-- Status: Proposed
+- Status: Approved
 - Context: The project must preserve prop-authentic symbol shapes while still keeping Gardiner and Unicode mappings for interoperability and research.
 
 ## Options considered

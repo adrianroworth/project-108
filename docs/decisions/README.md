@@ -4,6 +4,10 @@ This folder contains shared decision records for the Project 108 umbrella reposi
 
 Use this folder to capture important architectural or process decisions that affect multiple subprojects.
 
+## Current decision records
+
+- `2026-07-12-swan-software-control-subproject-boundary.md`
+
 ## How to add a decision
 
 1. Create a new markdown file with a descriptive name, e.g. `2026-07-09-logo-and-branding.md`.
