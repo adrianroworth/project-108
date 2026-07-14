@@ -1,5 +1,7 @@
 # First Digit Prototype-r0 Execution Guide
 
+> Status: Parked for now. Resume this guide after the completed USB bring-up stage in `17-esp32-usb-bring-up-guide.md` when hardware integration work restarts.
+
 This guide defines the immediate build milestone for Swan: `first-digit-prototype-r0`.
 
 Primary objective:
@@ -46,6 +48,14 @@ Goal: prove each subsystem independently before integration.
 
 Before first power-on, copy and confirm the pin map in `../electronics/wiring/first-digit-prototype-r0-wiring-map.md`.
 
+0. Prerequisite: complete `17-esp32-usb-bring-up-guide.md` (no motor, no Hall, no external PSU)
+- Keep only the ESP32 connected by USB.
+- Complete the prerequisite bring-up checklist in `17-esp32-usb-bring-up-guide.md`.
+- Confirm the board appears on a COM port in Windows Device Manager.
+- Use VS Code + PlatformIO (`platformio.platformio-ide`) and upload a minimal serial sketch.
+- Confirm serial output at `115200` baud before connecting any other hardware.
+- If upload stalls at `Connecting...`, hold BOOT until flashing begins.
+
 1. Motor-only test
 - Wire ESP32 GPIO outputs to ULN2003 inputs.
 - Use separate 5V motor power and common ground with ESP32.
@@ -53,8 +63,8 @@ Before first power-on, copy and confirm the pin map in `../electronics/wiring/fi
 - Confirm smooth rotation (not vibration-only behavior).
 
 2. Hall-only test
-- Wire AH3144E to 3.3V, GND, and one ESP32 GPIO input.
-- Add pull-up to 3.3V (open-collector sensor output).
+- Wire AH3144E VCC to external 5V, GND to common ground, and OUT to one ESP32 GPIO input.
+- Add 10k pull-up from Hall OUT to ESP32 3.3V (open-collector sensor output).
 - Move magnet by hand and verify clean digital transitions.
 - Mark active magnet pole for consistent assembly.
 
@@ -68,6 +78,17 @@ Exit criteria:
 - Motor rotates reliably in both directions.
 - Hall transitions are repeatable and noise-free.
 - Homing routine can detect the same physical home point repeatedly.
+
+Prerequisite exit criteria (from `17-esp32-usb-bring-up-guide.md`):
+
+- ESP32 flashes successfully from VS Code + PlatformIO.
+- Serial monitor shows stable expected output at `115200`.
+- No motor, Hall sensor, or external 5V PSU was connected during this preflight check.
+
+Reference images for this preflight live in `../media/reference-images/`:
+
+- [2026-07-13-platformio-usb-preflight-01.png](../media/reference-images/2026-07-13-platformio-usb-preflight-01.png)
+- [2026-07-13-platformio-usb-preflight-02.png](../media/reference-images/2026-07-13-platformio-usb-preflight-02.png)
 
 ### Stage B - Early mechanical proof parts (Blender/CAD entry point)
 
@@ -156,7 +177,7 @@ Record for each test run:
 - observed failures,
 - corrective changes and result.
 
-Use `18-first-digit-prototype-r0-test-log-template.md` to capture each run in a consistent structure.
+Use `19-first-digit-prototype-r0-test-log-template.md` to capture each run in a consistent structure.
 
 ## Definition of done for `first-digit-prototype-r0`
 
@@ -170,6 +191,7 @@ This milestone is complete when all criteria below are true:
 
 ## Suggested implementation checklist
 
+- [ ] Complete `17-esp32-usb-bring-up-guide.md` and record Stage 1 completion.
 - [ ] Complete Stage A electronics bring-up logs.
 - [ ] Print and validate Stage B proof parts.
 - [ ] Implement Stage C homing/indexing firmware API.

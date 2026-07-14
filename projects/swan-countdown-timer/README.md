@@ -34,11 +34,13 @@ The Swan Countdown Timer is designed as a physical, mechanical split-flap displa
 - `electronics/` � schematics, PCB layouts, and wiring diagrams
 - `tools/` � custom utilities and supporting files
 - `bom/` � bill of materials and parts lists
-- `media/` � photos, videos, and screenshots
+- `media/` � photos, videos, and reference images
 
 ## Next step
 
-Start with `projects/swan-countdown-timer/docs/17-first-digit-prototype-r0.md` and complete the staged sequence (electronics bring-up, proof mechanics, indexing firmware, representative flap pilot, reliability validation) before launching full-set production work.
+Current checkpoint: `projects/swan-countdown-timer/docs/17-esp32-usb-bring-up-guide.md` is complete and recorded in test run `2026-07-14-r0-run-04`.
+
+`projects/swan-countdown-timer/docs/18-first-digit-prototype-r0.md` and `projects/swan-countdown-timer/docs/19-first-digit-prototype-r0-test-log-template.md` are temporarily parked until hardware integration work resumes.
 
 ## Release status
 

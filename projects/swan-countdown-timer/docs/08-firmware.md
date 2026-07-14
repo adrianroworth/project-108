@@ -38,3 +38,31 @@ For the active `first-digit-prototype-r0` milestone, firmware scope is limited t
 - Start with a minimal working prototype.
 - Keep the firmware modular so display, timing, and input are separate.
 - Record firmware decisions, pinouts, and versioning in the project docs.
+
+## Current start point (before any wiring)
+
+At this stage, begin with a USB-only ESP32 sanity check before connecting ULN2003, motor, Hall sensor, breadboard rails, or external PSU.
+
+Recommended toolchain for this repository: VS Code + PlatformIO IDE.
+
+Minimum PlatformIO environment:
+
+```ini
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+monitor_speed = 115200
+```
+
+Minimal preflight sketch behavior:
+
+- Print a startup line once.
+- Print a heartbeat line periodically.
+
+Preflight success criteria:
+
+- Build succeeds.
+- Upload succeeds to the expected COM port.
+- Serial monitor at `115200` shows stable startup and heartbeat output.
+- If flashing stalls at `Connecting...`, BOOT-button retry procedure is documented in the run log.

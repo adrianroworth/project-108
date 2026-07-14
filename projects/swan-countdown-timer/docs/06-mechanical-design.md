@@ -2,7 +2,7 @@
 
 This document captures the overall mechanical design and assembly approach.
 
-The active prototype sequence is defined in `17-first-digit-prototype-r0.md`.
+The active prototype sequence is defined in `18-first-digit-prototype-r0.md`.
 
 ## Key components
 

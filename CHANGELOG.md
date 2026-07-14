@@ -2,8 +2,25 @@
 
 ## Unreleased
 
-- Added `projects/swan-countdown-timer/docs/17-first-digit-prototype-r0.md` with a full staged execution guide covering electronics bring-up, mechanical proof parts, indexing firmware, representative pilot printing, and reliability gates
-- Added `projects/swan-countdown-timer/docs/18-first-digit-prototype-r0-test-log-template.md` to standardize per-run evidence capture for the active first-digit milestone
+- Marked `projects/swan-countdown-timer/docs/18-first-digit-prototype-r0.md` and `projects/swan-countdown-timer/docs/19-first-digit-prototype-r0-test-log-template.md` as temporarily parked until hardware integration resumes
+- Added test-run record `projects/swan-countdown-timer/docs/test-runs/2026-07-14-r0-run-04.md` documenting a passed ESP32 USB-only bring-up (build/upload/serial monitor verification)
+- Added `projects/swan-countdown-timer/docs/17-esp32-usb-bring-up-guide.md` as a beginner-first, USB-only ESP32 bring-up prerequisite covering setup, success criteria, troubleshooting, and evidence capture
+- Updated Swan docs and milestone flow to link Stage A0 preflight to the new bring-up guide before motor/sensor/external-PSU work
+- Updated `projects/swan-countdown-timer/README.md` next-step sequence to run the USB bring-up guide before `18-first-digit-prototype-r0.md`
+- Added imported reference images for the Stage A0 USB-only preflight and referenced them from the prototype documentation
+- Updated `first-digit-prototype-r0` execution docs to add an explicit ESP32 USB-only Stage A0 preflight before any motor/Hall/external-PSU wiring
+- Added firmware and testing guidance for VS Code + PlatformIO preflight validation and evidence provenance at the current pre-implementation stage
+- Added policy notes for using external/chat-sourced images as reference context while requiring locally captured evidence for physical validation gates
+- Added workspace VS Code extension recommendations file with `platformio.platformio-ide` for firmware development
+- Updated Stage 01 and master BOM records to mark purchased 3 mm shaft rods (ASIN `B0CD7SXD6W`) and a 5V 5A PSU (ASIN `B07PPPF1R5`), removed them from Stage 01 outstanding items, and recalculated purchased totals to 123.75 GBP
+- Updated Swan overview purchase list to include the newly recorded breadboard packs, shaft rods, and 5V PSU purchases
+- Updated Stage 01 and master BOM records to mark 3 purchased packs of 830-point breadboards (ASIN `B07YJTFVB2`) and recalculated purchased totals
+- Corrected first-digit Hall sensor wiring docs to use AH3144E VCC from external 5V while keeping Hall OUT pulled up to ESP32 3.3V
+- Added explicit Stage 01 and master BOM entries for required 10k pull-up resistor(s) used by Hall OUT
+- Clarified `2026-07-13-r0-run-02` notes to keep canonical GPIO18->IN3 and GPIO19->IN4 mapping and record sequence correction as a firmware change
+- Marked `2026-07-13-r0-run-02` evidence artifacts as not yet committed so repository state matches recorded references
+- Added `projects/swan-countdown-timer/docs/18-first-digit-prototype-r0.md` with a full staged execution guide covering electronics bring-up, mechanical proof parts, indexing firmware, representative pilot printing, and reliability gates
+- Added `projects/swan-countdown-timer/docs/19-first-digit-prototype-r0-test-log-template.md` to standardize per-run evidence capture for the active first-digit milestone
 - Added `projects/swan-countdown-timer/electronics/wiring/first-digit-prototype-r0-wiring-map.md` as the canonical pre-power connection map and checklist for first physical bring-up
 - Added decision record `2026-07-13-first-digit-prototype-r0-milestone-and-validation-gates.md` to formalize milestone scope, sequencing, and closeout criteria
 - Updated Stage 01 BOM plan with explicit `first-digit-prototype-r0` execution order and measurable validation gates

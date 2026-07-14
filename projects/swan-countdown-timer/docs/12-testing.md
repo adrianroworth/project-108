@@ -34,8 +34,16 @@ The active test target is the single-digit `first-digit-prototype-r0` milestone.
 - Log each failure mode with reproduction steps and corrective action.
 - Document firmware revision and pin mapping used for each run.
 - Promote validated geometry changes into `artwork/flap-layouts/flap-spec.yaml` or linked CAD parameters.
+- Keep evidence provenance explicit: local capture path, date, operator, and run ID.
 
-Use `18-first-digit-prototype-r0-test-log-template.md` as the default run-log structure for all `first-digit-prototype-r0` test sessions.
+### External image guidance (including ChatGPT share conversations)
+
+- Images from external chats may be added for context/completeness, but treat them as reference material by default.
+- Do not mark stage gates as passed based only on externally hosted images.
+- For physical-test evidence, store local copies under `projects/swan-countdown-timer/media/` and reference them from the dated run log.
+- When reusing an external image, record original source URL and capture date in the run log notes.
+
+Use `19-first-digit-prototype-r0-test-log-template.md` as the default run-log structure for all `first-digit-prototype-r0` test sessions.
 
 ## What to record
 

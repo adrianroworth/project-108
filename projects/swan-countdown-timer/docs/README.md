@@ -20,8 +20,9 @@ Build-specific documentation for the Swan Countdown Timer, including design note
 - `14-domain-language.md`
 - `15-artwork-source-of-truth-workflow.md`
 - `16-artwork-update-runbook.md`
-- `17-first-digit-prototype-r0.md`
-- `18-first-digit-prototype-r0-test-log-template.md`
+- `17-esp32-usb-bring-up-guide.md`
+- `18-first-digit-prototype-r0.md`
+- `19-first-digit-prototype-r0-test-log-template.md`
 
 ## Decisions
 

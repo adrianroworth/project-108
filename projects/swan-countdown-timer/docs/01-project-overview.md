@@ -35,12 +35,16 @@ This document describes what the project is, why it exists, and the initial scop
 
 - DEEPLEE PLA Plus 1.75mm Filament White 1kg — 1 spool, ~£10.99
 - DEEPLEE Rapid PLA Plus Filament 1.75mm Black 1kg — 1 spool, ~£10.99
+- DEEPLEE PLA Plus 1.75mm Filament Red 1kg — 1 spool, ~£15.99
 - 100 Pack 2×1mm Strong Mini Round N52 Neodymium Magnets — 1 pack, ~£5.49
 - Huba 20 PCS AH3144E Hall Sensor pack — 1 pack, ~£5.99
 - Fasizi ELA2318 stepper motor — 1 unit, ~£8.79 (used price on Amazon listing)
 - ESP-32 DevKitC ESP-32 Development Board — 1 unit, ~£5.99
 - Saipor 30Pcs 623ZZ bearings — 1 pack, ~£6.99
 - ELEGOO 120pcs multicolored Dupont wire kit — 1 kit, ~£6.99
+- Hailege 3pcs 830-point solderless breadboard pack (ASIN B07YJTFVB2) — 3 packs, ~£6.99 each
+- TA-VIGOR 5pcs stainless steel rods 3mm x 300mm (ASIN B0CD7SXD6W) — 1 pack, ~£6.59
+- Velainwom 5V 5A 25W switching PSU (ASIN B07PPPF1R5) — 1 unit, ~£10.99
 - Moqinai 1200 PCS M3 screw set — 1 kit, ~£6.99
 
 ## Deferred post-prototype items

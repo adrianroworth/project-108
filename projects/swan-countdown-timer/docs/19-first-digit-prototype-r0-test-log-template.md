@@ -1,5 +1,7 @@
 # First Digit Prototype-r0 Test Log Template
 
+> Status: Parked for now. Use this template again when hardware integration work resumes and physical motor/Hall/flap testing starts.
+
 Use this page as a copy-ready template for each physical test run during `first-digit-prototype-r0`.
 
 Recommended filename format for run logs:
@@ -14,7 +16,7 @@ If you keep logs in another location, keep the section structure below unchanged
 - Operator:
 - Run ID:
 - Milestone: `first-digit-prototype-r0`
-- Physical build state: pre-build planning / bench wiring / partial assembly / assembled digit
+- Physical build state: pre-build planning / ESP32 USB-only preflight / bench wiring / partial assembly / assembled digit
 - Firmware revision/commit:
 - CAD revision/commit:
 - Slicer profile name/version:
@@ -102,6 +104,10 @@ If you keep logs in another location, keep the section structure below unchanged
 - Video:
 - Serial logs:
 - Oscilloscope or meter captures (if any):
+- External reference images/links (if used):
+- Example preflight images:
+	- `projects/swan-countdown-timer/media/reference-images/2026-07-13-platformio-usb-preflight-01.png`
+	- `projects/swan-countdown-timer/media/reference-images/2026-07-13-platformio-usb-preflight-02.png`
 
 ## Run outcome summary
 
@@ -109,3 +115,5 @@ If you keep logs in another location, keep the section structure below unchanged
 - Gate(s) satisfied in this run:
 - Blocking issue(s):
 - Next run objective:
+
+If the run passed, put the exact stage completion statement in the run log outcome summary after these bullets.
