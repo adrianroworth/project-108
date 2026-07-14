@@ -11,6 +11,15 @@ Primary milestone alignment: this stage is executed as `first-digit-prototype-r0
 - Validate mechanics second.
 - Avoid buying deferred feature hardware until first-digit reliability is proven.
 
+## Fabrication prerequisites (not counted in running total)
+
+These are workshop capabilities for producing parts, not consumed Stage 01 assembly items.
+
+| Item | Requirement level | Qty | Status | Stage 01 relevance |
+|---|---|---:|---|---|
+| Bambu Lab A1 printer | Required | 1 | Available | Used for all Stage 01 printed prototype parts |
+| Bambu Lab AMS | Optional | 1 | Available | Helpful for multi-color/material jobs, but not required for current Stage 01 single-material print plan |
+
 ## Purchased items
 
 | Item | ASIN | Qty purchased | Approx price | Implementation use |

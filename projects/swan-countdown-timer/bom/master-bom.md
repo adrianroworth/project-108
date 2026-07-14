@@ -8,6 +8,15 @@ Status values:
 - Tested
 - Replaced
 
+## Fabrication prerequisites (not counted in purchased-items total)
+
+These are required or optional workshop capabilities used to produce parts, not timer assembly parts.
+
+| Item | Requirement level | Qty | Status | Notes |
+|---|---|---:|---|---|
+| Bambu Lab A1 printer | Required | 1 | Available | Primary printer used for prototype and production-part prints |
+| Bambu Lab AMS | Optional | 1 | Available | Useful for multi-color/material workflows; not required for current single-material Stage 01 prints |
+
 ## Master part ledger
 
 | Category | Item | Source / reference | ASIN | Stage | Qty target | Qty purchased | Status | Approx unit price | Notes |
@@ -43,4 +52,5 @@ Status values:
 - Prices are approximate and should be updated when purchases are confirmed.
 - Stage assignment is design-intent based and can change if implementation changes.
 - Keep this file as the source of truth; stage files are focused working views.
+- Fabrication prerequisites are documented separately and are excluded from the purchased-items running total unless explicitly procured for this project.
 - Running total (purchased items): 160.73 GBP.
