@@ -98,6 +98,15 @@ If you keep logs in another location, keep the section structure below unchanged
 - Decision record required: Yes/No
 - Follow-up issue(s):
 
+## Blockers and forks
+
+- Blockers encountered:
+- Forks in the road / alternate approaches considered:
+- Decision record link:
+- Hardware to order before the next run:
+
+Use this section whenever a bench session ends because a part, power source, adapter, or design choice needs to change before the next physical step.
+
 ## Evidence references
 
 - Photos:

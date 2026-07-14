@@ -48,6 +48,27 @@ Goal: prove each subsystem independently before integration.
 
 Before first power-on, copy and confirm the pin map in `../electronics/wiring/first-digit-prototype-r0-wiring-map.md`.
 
+Visual quick reference:
+
+```mermaid
+flowchart LR
+	USB[Computer USB] --> ESP32[ESP32 DevKitC]
+	PSU[Separate regulated 5V] --> ULN[ULN2003]
+	ULN --> M[28BYJ-48 Motor]
+	ESP32 -->|GPIO16/17/18/19| ULN
+	ESP32 <-->|Common GND| ULN
+	PSU -->|5V| H[AH3144E VCC]
+	H -->|OUT| ESP32
+	H -->|OUT via 10k pull-up to 3.3V| ESP32
+```
+
+Current power fork for the next motor-only bench test:
+
+- Use an enclosed 5V USB charger or power bank with a USB-to-screw-terminal breakout adapter for the motor rail.
+- Keep the ESP32 on USB from the computer.
+- Leave the open-frame 5V 5A PSU unused until it is enclosed, insulated, and strain-relieved.
+- See decision record `2026-07-14-safe-motor-power-source-and-usb-breakout.md`.
+
 0. Prerequisite: complete `17-esp32-usb-bring-up-guide.md` (no motor, no Hall, no external PSU)
 - Keep only the ESP32 connected by USB.
 - Complete the prerequisite bring-up checklist in `17-esp32-usb-bring-up-guide.md`.
@@ -62,11 +83,41 @@ Before first power-on, copy and confirm the pin map in `../electronics/wiring/fi
 - Run clockwise and counter-clockwise stepping test.
 - Confirm smooth rotation (not vibration-only behavior).
 
+Motor-only physical wiring checklist (exact connect-this-to-that):
+
+1. Power fully OFF: unplug ESP32 USB and disconnect external 5V motor supply.
+2. Plug the 28BYJ-48 motor connector into the ULN2003 white 5-pin socket.
+3. Connect ESP32 `GPIO16` pin to ULN2003 `IN1`.
+4. Connect ESP32 `GPIO17` pin to ULN2003 `IN2`.
+5. Connect ESP32 `GPIO18` pin to ULN2003 `IN3`.
+6. Connect ESP32 `GPIO19` pin to ULN2003 `IN4`.
+7. Connect one ESP32 `GND` pin to ULN2003 `GND` (sometimes marked `-`).
+8. Connect external 5V supply positive to ULN2003 `VCC` (sometimes marked `+`).
+9. Connect external 5V supply negative to ULN2003 `GND` (same ground rail as step 7).
+10. Re-check that ULN2003 control header labels match by printed text (`IN1..IN4`, `GND`, `VCC`), not by assumed left-right order.
+
+Power-on order for this stage:
+
+1. Connect ESP32 USB.
+2. Upload firmware and open serial monitor at `115200`.
+3. Apply external 5V to ULN2003/motor.
+4. Run `f`, `r`, `c`, `x` tests.
+
 2. Hall-only test
 - Wire AH3144E VCC to external 5V, GND to common ground, and OUT to one ESP32 GPIO input.
 - Add 10k pull-up from Hall OUT to ESP32 3.3V (open-collector sensor output).
+- Do not power AH3144E VCC from ESP32 3.3V.
 - Move magnet by hand and verify clean digital transitions.
 - Mark active magnet pole for consistent assembly.
+
+Hall-only physical wiring checklist (after motor-only is validated):
+
+1. Power fully OFF before adding Hall wiring.
+2. Connect AH3144E `VCC` to external 5V positive.
+3. Connect AH3144E `GND` to common ground.
+4. Connect AH3144E `OUT` to ESP32 `GPIO27`.
+5. Add one `10k` resistor from AH3144E `OUT` to ESP32 `3V3`.
+6. Confirm AH3144E pin orientation from your batch datasheet before power-on.
 
 3. Combined test
 - Run homing routine that rotates until Hall trigger is detected.

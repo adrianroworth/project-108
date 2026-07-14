@@ -104,6 +104,35 @@ Top-view placement suggestion for first bring-up:
 | AH3144E OUT | ESP32 GPIO27 | Home input signal |
 | 10k resistor | AH3144E OUT to ESP32 3.3V | Required pull-up for open-collector output |
 
+## First power-on wiring script (do in this order)
+
+Motor-only stage first:
+
+1. Power OFF everything.
+2. 28BYJ-48 motor plug -> ULN2003 motor socket.
+3. ESP32 GPIO16 -> ULN2003 IN1.
+4. ESP32 GPIO17 -> ULN2003 IN2.
+5. ESP32 GPIO18 -> ULN2003 IN3.
+6. ESP32 GPIO19 -> ULN2003 IN4.
+7. ESP32 GND -> ULN2003 GND.
+8. External 5V + -> ULN2003 VCC.
+9. External 5V - -> ULN2003 GND.
+10. Confirm labels on ULN2003 PCB silkscreen before power-on (do not assume header order).
+
+Then power in this order:
+
+1. ESP32 via USB.
+2. Firmware upload + serial monitor at 115200.
+3. External 5V to ULN2003/motor.
+
+Hall stage later (not part of motor-only pass gate):
+
+1. Power OFF.
+2. AH3144E VCC -> external 5V +.
+3. AH3144E GND -> common ground.
+4. AH3144E OUT -> ESP32 GPIO27.
+5. 10k resistor from AH3144E OUT -> ESP32 3.3V.
+
 ## AH3144E pin orientation note
 
 Validate pin order from the exact component batch before power-up.

@@ -16,6 +16,16 @@ By the end of this guide, you should have proved:
 
 Do not connect motor/driver/sensor/breadboard/external 5V power during this stage.
 
+```mermaid
+flowchart LR
+  Laptop[Laptop or PC USB] --> ESP32[ESP32 DevKitC]
+  Motor[28BYJ-48]:::blocked
+  Driver[ULN2003]:::blocked
+  Hall[AH3144E]:::blocked
+  PSU[External 5V PSU]:::blocked
+  classDef blocked fill:#f8d7da,stroke:#b42318,color:#7a271a;
+```
+
 ## Quick Path (First Success)
 
 1. Connect only `Laptop -> USB -> ESP32`.
