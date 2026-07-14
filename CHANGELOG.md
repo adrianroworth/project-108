@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Added explicit step-by-step physical wiring scripts (power-off sequence, exact pin-to-pin jumpers, and power-on order) to first-digit execution, firmware bring-up, and canonical wiring-map docs
+- Added Mermaid visual wiring/stage diagrams to the ESP32 USB bring-up guide, first-digit execution guide, and motor-only firmware README for faster bench setup validation
+- Replaced `projects/swan-countdown-timer/docs/test-runs/2026-07-13-r0-run-02.md` content with an explicit non-executed planning/example record so it no longer presents unperformed physical results as evidence
+- Clarified Hall-stage wiring in `projects/swan-countdown-timer/docs/18-first-digit-prototype-r0.md` to explicitly prohibit powering AH3144E VCC from ESP32 3.3V
+- Replaced `projects/swan-countdown-timer/firmware/first-digit-prototype-r0/src/main.cpp` USB heartbeat sketch with a motor-only interactive 28BYJ-48 bring-up controller (non-blocking continuous motion, direct half-step sequence, immediate stop/release command)
+- Added `projects/swan-countdown-timer/firmware/first-digit-prototype-r0/README.md` with exact wiring, split power model, safety constraints, command reference, expected ULN2003 LED behavior, build/upload/monitor commands, and troubleshooting notes
 - Marked `projects/swan-countdown-timer/docs/18-first-digit-prototype-r0.md` and `projects/swan-countdown-timer/docs/19-first-digit-prototype-r0-test-log-template.md` as temporarily parked until hardware integration resumes
 - Added test-run record `projects/swan-countdown-timer/docs/test-runs/2026-07-14-r0-run-04.md` documenting a passed ESP32 USB-only bring-up (build/upload/serial monitor verification)
 - Added `projects/swan-countdown-timer/docs/17-esp32-usb-bring-up-guide.md` as a beginner-first, USB-only ESP32 bring-up prerequisite covering setup, success criteria, troubleshooting, and evidence capture

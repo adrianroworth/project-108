@@ -44,7 +44,7 @@ This document describes what the project is, why it exists, and the initial scop
 - ELEGOO 120pcs multicolored Dupont wire kit — 1 kit, ~£6.99
 - Hailege 3pcs 830-point solderless breadboard pack (ASIN B07YJTFVB2) — 3 packs, ~£6.99 each
 - TA-VIGOR 5pcs stainless steel rods 3mm x 300mm (ASIN B0CD7SXD6W) — 1 pack, ~£6.59
-- Velainwom 5V 5A 25W switching PSU (ASIN B07PPPF1R5) — 1 unit, ~£10.99
+- Velainwom 5V 5A 25W switching PSU (ASIN B07PPPF1R5) — purchased, deferred until enclosed/insulated, ~£10.99
 - Moqinai 1200 PCS M3 screw set — 1 kit, ~£6.99
 
 ## Deferred post-prototype items

@@ -26,7 +26,7 @@ Primary milestone alignment: this stage is executed as `first-digit-prototype-r0
 | Dupont jumper wire kit | B01EV70C78 | 1 kit | 6.99 GBP | Breadboard interconnects |
 | Hailege 3pcs 830-point breadboard pack | B07YJTFVB2 | 3 packs | 6.99 GBP each | Bench prototyping layout (9 boards total purchased) |
 | TA-VIGOR 5pcs stainless steel rods (3 mm x 300 mm) | B0CD7SXD6W | 1 pack | 6.59 GBP | Shaft stock for wheel axle and fit/cut tests |
-| Velainwom 5V 5A 25W switching PSU | B07PPPF1R5 | 1 | 10.99 GBP | Dedicated motor/sensor 5V bench rail (external to ESP32 USB) |
+| Velainwom 5V 5A 25W switching PSU | B07PPPF1R5 | 1 | 10.99 GBP | Purchased inventory; defer until the PSU is enclosed, insulated, and strain-relieved. Use a safer USB charger/power-bank breakout for the first motor-only bench test. |
 | M3 screw assortment kit | B0G3PNC4FM | 1 kit | 6.99 GBP | Frame and mechanism assembly |
 
 Running total (purchased): 123.75 GBP
@@ -36,6 +36,7 @@ Running total (purchased): 123.75 GBP
 | Item | Qty | Approx price | Why needed now |
 |---|---:|---:|---|
 | 10k resistors (or resistor assortment including 10k) | 1 pack | ~3-8 GBP | Required Hall OUT pull-up to ESP32 3.3V |
+| USB-C female to 2-pin screw-terminal breakout adapter | 1 | ~3-8 GBP | Safer removable 5V motor power breakout for first ULN2003 bench test |
 | Super glue (gel) | 1 | ~3-6 GBP | Magnet retention and quick fixture fixes |
 | Small side cutters and needle-nose pliers | 1 set | varies | Wiring trim, part handling, and assembly |
 
