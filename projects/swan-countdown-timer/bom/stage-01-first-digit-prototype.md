@@ -27,9 +27,10 @@ Primary milestone alignment: this stage is executed as `first-digit-prototype-r0
 | Hailege 3pcs 830-point breadboard pack | B07YJTFVB2 | 3 packs | 6.99 GBP each | Bench prototyping layout (9 boards total purchased) |
 | TA-VIGOR 5pcs stainless steel rods (3 mm x 300 mm) | B0CD7SXD6W | 1 pack | 6.59 GBP | Shaft stock for wheel axle and fit/cut tests |
 | Velainwom 5V 5A 25W switching PSU | B07PPPF1R5 | 1 | 10.99 GBP | Purchased inventory; defer until the PSU is enclosed, insulated, and strain-relieved. Use a safer USB charger/power-bank breakout for the first motor-only bench test. |
+| Baiyouli 5V 10A 50W enclosed desktop adapter | B0GBVHZVKD | 1 | 15.99 GBP | Purchased inventory for finished-build external power architecture; use with fused low-voltage distribution and current-capable connector path. |
 | M3 screw assortment kit | B0G3PNC4FM | 1 kit | 6.99 GBP | Frame and mechanism assembly |
 
-Running total (purchased): 123.75 GBP
+Running total (purchased): 139.74 GBP
 
 ## Still needed for Stage 01
 

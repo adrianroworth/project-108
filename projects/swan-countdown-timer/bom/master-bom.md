@@ -26,6 +26,7 @@ Status values:
 | Fasteners | M3 screw/nut/washer assortment | Amazon UK | B0G3PNC4FM | Stage 01 | 1 kit | 1 kit | Purchased | 6.99 GBP | General assembly |
 | Prototyping | Hailege 3pcs 830-point solderless breadboard pack | Amazon UK | B07YJTFVB2 | Stage 01 | 1 pack | 3 packs | Purchased | 6.99 GBP per pack | 9 boards total purchased; exceeds minimum Stage 01 requirement |
 | Power | Velainwom 5V 5A 25W switching PSU | Amazon UK | B07PPPF1R5 | Stage 01 | 1 | 1 | Purchased | 10.99 GBP | Purchased inventory; deferred for the first motor-only bench test until enclosed, insulated, and strain-relieved |
+| Power | Baiyouli 5V 10A 50W enclosed desktop adapter | Amazon UK | B0GBVHZVKD | Stage 02 | 1 | 1 | Purchased | 15.99 GBP | Intended finished-build external PSU; keeps mains outside timer enclosure |
 | Mechanical | TA-VIGOR 5pcs stainless steel rods (3 mm x 300 mm) | Amazon UK | B0CD7SXD6W | Stage 01 | 1 pack | 1 pack | Purchased | 6.59 GBP | Better than printed axle; cut/deburr to final shaft length |
 | Consumables | Super glue (gel preferred) | TBD | TBD | Stage 01 | 1 | 0 | Planned | ~3-6 GBP | Magnet and fixture work |
 | Tools | Side cutters + needle-nose pliers | TBD | TBD | Stage 01 | 1 set | 0 | Planned | varies | Assembly convenience |
@@ -41,4 +42,4 @@ Status values:
 - Prices are approximate and should be updated when purchases are confirmed.
 - Stage assignment is design-intent based and can change if implementation changes.
 - Keep this file as the source of truth; stage files are focused working views.
-- Running total (purchased items): 123.75 GBP.
+- Running total (purchased items): 139.74 GBP.
