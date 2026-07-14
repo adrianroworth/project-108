@@ -16,6 +16,14 @@ The current implementation milestone is `first-digit-prototype-r0` and focuses o
 - Include power and signal management for the motor/actuator.
 - Design the wiring so each digit can be disconnected separately.
 
+## Intended power architecture
+
+- Finished build power source: external enclosed regulated 5V desktop adapter.
+- Current selected purchased adapter: Baiyouli 5V 10A 50W (ASIN B0GBVHZVKD).
+- Keep 230V mains outside the timer enclosure; route only low-voltage 5V and GND into the build.
+- Feed incoming 5V through a low-voltage fuse, then into a distribution point for motor branches and controller/peripheral branches.
+- Ensure the full connector path (adapter plug, jack, breakout, wire gauge, and terminals) is rated for expected current.
+
 ## Deliverables
 
 - Schematic

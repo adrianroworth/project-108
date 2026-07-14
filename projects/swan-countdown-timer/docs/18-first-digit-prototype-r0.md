@@ -67,6 +67,7 @@ Current power fork for the next motor-only bench test:
 - Use an enclosed 5V USB charger or power bank with a USB-to-screw-terminal breakout adapter for the motor rail.
 - Keep the ESP32 on USB from the computer.
 - Leave the open-frame 5V 5A PSU unused until it is enclosed, insulated, and strain-relieved.
+- The purchased Baiyouli 5V 10A enclosed desktop adapter is the intended finished-build supply; bench use still requires a fused low-voltage path and current-capable connector chain.
 - See decision record `2026-07-14-safe-motor-power-source-and-usb-breakout.md`.
 
 0. Prerequisite: complete `17-esp32-usb-bring-up-guide.md` (no motor, no Hall, no external PSU)

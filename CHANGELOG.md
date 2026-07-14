@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added decision record `projects/swan-countdown-timer/docs/decisions/2026-07-14-finished-build-external-5v-adapter-selection.md` to formalize the finished-build external enclosed 5V adapter strategy and selected purchased unit (ASIN `B0GBVHZVKD`)
+- Updated Swan master and Stage 01 BOM entries to record the purchased Baiyouli 5V 10A 50W enclosed desktop adapter (ASIN `B0GBVHZVKD`) and recalculated purchased totals to 139.74 GBP
+- Updated Swan overview, electronics design notes, and first-digit prototype guide to align intended build power architecture around an external enclosed 5V adapter with fused low-voltage distribution
 - Added explicit step-by-step physical wiring scripts (power-off sequence, exact pin-to-pin jumpers, and power-on order) to first-digit execution, firmware bring-up, and canonical wiring-map docs
 - Added Mermaid visual wiring/stage diagrams to the ESP32 USB bring-up guide, first-digit execution guide, and motor-only firmware README for faster bench setup validation
 - Replaced `projects/swan-countdown-timer/docs/test-runs/2026-07-13-r0-run-02.md` content with an explicit non-executed planning/example record so it no longer presents unperformed physical results as evidence
