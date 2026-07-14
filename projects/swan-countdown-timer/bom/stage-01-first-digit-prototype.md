@@ -18,6 +18,7 @@ Primary milestone alignment: this stage is executed as `first-digit-prototype-r0
 | DEEPLEE PLA Plus White 1kg | B0DCHXCSZ7 | 1 | 10.99 GBP | White print tests and contrast parts |
 | DEEPLEE Rapid PLA Plus Black 1kg | B0DKFJLXSD | 1 | 10.99 GBP | Main prototype print material |
 | DEEPLEE PLA Plus Red 1kg | B0DCHVFRB2 | 1 | 15.99 GBP | Red print material for display graphics and accents |
+| Bambu Smooth PEI Plate | N/A | 1 | 20.99 GBP | Smoother, matte first-layer finish for visible flap surfaces and better first-layer consistency when tuning fit-critical flap geometry |
 | 2x1 mm N52 magnets (100) | B0FH1W4ZM4 | 1 pack | 5.49 GBP | Magnet-triggered indexing/homing tests |
 | AH3144E hall sensors (20) | B0GRGPRV66 | 1 pack | 5.99 GBP | Home sensor and position-detect tests |
 | 28BYJ-48 + ULN2003 kit | B09Z27VDHJ | 1 | 8.79 GBP | Stepper drive and indexing control |
@@ -30,7 +31,7 @@ Primary milestone alignment: this stage is executed as `first-digit-prototype-r0
 | Baiyouli 5V 10A 50W enclosed desktop adapter | B0GBVHZVKD | 1 | 15.99 GBP | Purchased inventory for finished-build external power architecture; use with fused low-voltage distribution and current-capable connector path. |
 | M3 screw assortment kit | B0G3PNC4FM | 1 kit | 6.99 GBP | Frame and mechanism assembly |
 
-Running total (purchased): 139.74 GBP
+Running total (purchased): 160.73 GBP
 
 ## Still needed for Stage 01
 
