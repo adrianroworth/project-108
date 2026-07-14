@@ -73,8 +73,21 @@ void loop()
 }
 ```
 
-6. Upload with PlatformIO.
-7. Open Serial Monitor at `115200` and confirm repeating output.
+6. Upload the firmware with PlatformIO.
+  - In VS Code, click the PlatformIO Upload button, or run `PlatformIO: Upload` from the Command Palette.
+  - Wait for the upload to finish successfully.
+7. Open the PlatformIO Serial Monitor at `115200`.
+  - Use the PlatformIO Serial Monitor button, or run `PlatformIO: Serial Monitor`.
+  - Confirm the board prints the startup line once, then the heartbeat line once per second.
+
+Expected serial output:
+
+```text
+Project 108 ESP32 test started
+ESP32 is working
+ESP32 is working
+ESP32 is working
+```
 
 ## Pass/Fail Checklist
 
@@ -83,7 +96,7 @@ void loop()
 - [ ] PlatformIO build succeeds.
 - [ ] PlatformIO upload succeeds.
 - [ ] `upload_port` and `monitor_port` are set correctly if explicit port mode is used.
-- [ ] Serial Monitor at `115200` shows expected startup and heartbeat lines.
+- [ ] Serial Monitor at `115200` shows `Project 108 ESP32 test started` followed by repeating `ESP32 is working` lines.
 - [ ] No external electronics or external power used.
 
 ## Safety Boundary
