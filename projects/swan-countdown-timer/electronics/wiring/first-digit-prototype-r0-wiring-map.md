@@ -23,10 +23,10 @@ Use this document before powering hardware and keep it synchronized with firmwar
 flowchart LR
 	USB[USB 5V to ESP32] --> ESP32[ESP32 DevKitC]
 	PSU[External 5V PSU] --> ULN[ULN2003 Driver]
+	PSU -->|5V| HALL[AH3144E Hall Sensor]
 	ESP32 -->|GPIO16..19| ULN
 	ULN -->|5-pin motor connector| M[28BYJ-48 Stepper]
 	ESP32 <-->|Shared GND| ULN
-	ESP32 -->|3.3V| HALL[AH3144E Hall Sensor]
 	HALL -->|OUT to GPIO27| ESP32
 	HALL -->|GND| ESP32
 	R[10k pull-up] -->|to 3.3V and Hall OUT| HALL
@@ -78,6 +78,8 @@ Top-view placement suggestion for first bring-up:
 		v
  +------------------+
  | AH3144E on breadboard |
+ | VCC -> external 5V      |
+ | GND -> common GND       |
  | OUT -> GPIO27          |
  | OUT --10k-- 3.3V       |
  +------------------+
@@ -97,7 +99,7 @@ Top-view placement suggestion for first bring-up:
 | External 5V PSU + | ULN2003 VCC | Do not power stepper from ESP32 3.3V |
 | External 5V PSU - | ULN2003 GND | Share ground with ESP32 |
 | 28BYJ-48 motor connector | ULN2003 motor socket | Use keyed connector as provided |
-| AH3144E VCC | ESP32 3.3V | Sensor logic rail |
+| AH3144E VCC | External 5V PSU + | Typical A3144/AH3144 family supply range requires 5V-class rail |
 | AH3144E GND | ESP32 GND | Common sensor ground |
 | AH3144E OUT | ESP32 GPIO27 | Home input signal |
 | 10k resistor | AH3144E OUT to ESP32 3.3V | Required pull-up for open-collector output |
@@ -114,6 +116,7 @@ Validate pin order from the exact component batch before power-up.
 
 - Keep ESP32 USB power and stepper 5V rail separate.
 - Always tie grounds between ESP32 and ULN2003.
+- Power AH3144E VCC from the external 5V rail (not ESP32 3.3V).
 - Never connect Hall OUT pull-up to 5V when feeding an ESP32 GPIO.
 - Power off before rewiring motor phases or sensor leads.
 
@@ -126,6 +129,7 @@ Validate pin order from the exact component batch before power-up.
 ## Pre-power checklist
 
 - [ ] All grounds tied (ESP32, ULN2003, PSU negative, Hall GND).
+- [ ] Hall VCC routed to external 5V rail.
 - [ ] Hall pull-up resistor installed to 3.3V.
 - [ ] Motor powered from external 5V rail.
 - [ ] GPIO map in firmware matches this table.
@@ -134,7 +138,7 @@ Validate pin order from the exact component batch before power-up.
 
 ## Post-test documentation checklist
 
-- [ ] Record any pin remaps in firmware and this file.
+- [ ] Record any firmware step-sequence changes if motor direction/torque tuning was required.
 - [ ] Add wiring photo reference names to run log.
 - [ ] Record observed Hall trigger distance range.
 - [ ] Document any noise or false-trigger behavior.

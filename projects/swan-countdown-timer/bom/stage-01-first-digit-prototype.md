@@ -24,17 +24,18 @@ Primary milestone alignment: this stage is executed as `first-digit-prototype-r0
 | ESP32 DevKitC | B0CJHR8SMK | 1 | 5.99 GBP | Control firmware and state logic |
 | 623ZZ bearings (pack) | B0DHRNQZWB | 1 pack | 6.99 GBP | Drum support and reduced friction |
 | Dupont jumper wire kit | B01EV70C78 | 1 kit | 6.99 GBP | Breadboard interconnects |
+| Hailege 3pcs 830-point breadboard pack | B07YJTFVB2 | 3 packs | 6.99 GBP each | Bench prototyping layout (9 boards total purchased) |
+| TA-VIGOR 5pcs stainless steel rods (3 mm x 300 mm) | B0CD7SXD6W | 1 pack | 6.59 GBP | Shaft stock for wheel axle and fit/cut tests |
+| Velainwom 5V 5A 25W switching PSU | B07PPPF1R5 | 1 | 10.99 GBP | Dedicated motor/sensor 5V bench rail (external to ESP32 USB) |
 | M3 screw assortment kit | B0G3PNC4FM | 1 kit | 6.99 GBP | Frame and mechanism assembly |
 
-Running total (purchased): 85.20 GBP
+Running total (purchased): 123.75 GBP
 
 ## Still needed for Stage 01
 
 | Item | Qty | Approx price | Why needed now |
 |---|---:|---:|---|
-| Solderless breadboard (830-point) | 1 | ~5 GBP | Reliable temporary electronics layout |
-| 5V PSU, 3A minimum | 1 | ~10-12 GBP | Separate motor power rail for stable testing |
-| 3 mm steel shaft / drill rod | 1 | ~3-6 GBP | Better concentricity and wear than printed axle |
+| 10k resistors (or resistor assortment including 10k) | 1 pack | ~3-8 GBP | Required Hall OUT pull-up to ESP32 3.3V |
 | Super glue (gel) | 1 | ~3-6 GBP | Magnet retention and quick fixture fixes |
 | Small side cutters and needle-nose pliers | 1 set | varies | Wiring trim, part handling, and assembly |
 
